@@ -1,0 +1,13 @@
+
+U	java:S106!"9Replace this use of System.out or System.err by a logger.(·áÃ8øìªøĞ/
+g
+java:S1124	"EReorder the modifiers to comply with the Java Language Specification.(¥çµçûÿÿÿÿ8¢ç¾øĞ/
+g
+java:S1124"EReorder the modifiers to comply with the Java Language Specification.(Å¬áúÿÿÿÿ8šÎ¦ùĞ/
+b
+java:S1124"EReorder the modifiers to comply with the Java Language Specification.(µ÷şÂ8˜ÚúĞ/
+g
+java:S1858!"J"element" is already a string, there's no need to call "toString()" on it.(·áÃ8øìªøĞ/
+Z	java:S106>"9Replace this use of System.out or System.err by a logger.(¬ĞË‹ùÿÿÿÿ8øìªøĞ/
+{	java:S115	"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(¥çµçûÿÿÿÿ8¢ç¾øĞ/
+U	java:S106E"9Replace this use of System.out or System.err by a logger.(Á É8øìªøĞ/
