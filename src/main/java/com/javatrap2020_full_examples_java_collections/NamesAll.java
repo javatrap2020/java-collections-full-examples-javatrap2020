@@ -18,6 +18,12 @@ public class NamesAll {
             case COLLECTION:
                 System.out.print(" Collection ");
                 break;
+            case COLLECTION_SET:
+                System.out.print(" Collection Set ");
+                break;
+            case COLLECTION_SET_HASH_SET:
+                System.out.print(" Collection HashSet ");
+                break;
             default:
                 System.out.print("the end");
                 break;

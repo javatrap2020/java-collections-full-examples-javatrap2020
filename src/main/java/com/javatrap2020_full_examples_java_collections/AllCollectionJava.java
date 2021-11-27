@@ -1,20 +1,28 @@
 package com.javatrap2020_full_examples_java_collections;
 
 import java.util.ArrayList;
+import java.util.HashSet;
 import java.util.Iterator;
 import java.util.List;
+import java.util.Set;
+import java.util.TreeSet;
+import java.util.logging.Logger;
 
 public class AllCollectionJava {
+
+    private final static Logger logger = Logger.getLogger(AllCollectionJava.class.getName());
 
     final static String dashed = "----------------------";
     static int count = 0;
     final static NamesEnum nameOne = NamesEnum.ITERABLE;
     final static NamesEnum nameTwo = NamesEnum.COLLECTION;
+    final static NamesEnum nameThree = NamesEnum.COLLECTION_SET;
+    final static NamesEnum nameFour = NamesEnum.COLLECTION_SET_HASH_SET;
 
     public static void main(String[] args) {
         NamesAll n = new NamesAll(nameOne);
         n.tellName();
-        dashedLine();
+        numDashedLine();
         /*
         The first way to iterable the elements of a Java Iterable is via the
         Java for-each loop.Below showing how iterate the elements of a java List
@@ -46,7 +54,7 @@ public class AllCollectionJava {
         of a Java Iterable (a Java List in this example):
         */
         n.tellName();
-        dashedLine();
+        numDashedLine();
 
         List<String> listTwo = new ArrayList<>();
 
@@ -62,7 +70,7 @@ public class AllCollectionJava {
         }
 
         n.tellName();
-        dashedLine();
+        numDashedLine();
 
         /*
         The third way to iterate the elements of a Java Iterable is via its
@@ -120,22 +128,156 @@ public class AllCollectionJava {
          */
 
         n.tellName();
-        dashedLine();
+        numDashedLine();
 
-        Person personOne = new Person("Javatrap2020","Java", 20);
-        Person personTwo = new Person("John","Jo", 30);
+        Person personOne = new Person("Javatrap2020", "Java", 20);
+        Person personTwo = new Person("John", "Jo", 30);
         Persons personsList = new Persons();
         personsList.addPerson(personOne);
         personsList.addPerson(personTwo);
-        for(Person person : personsList) {
+        for (Person person : personsList) {
             System.out.println(person);
         }
+        /*
+        Java Collection Framework offers the capability to Java Collection to
+        represent a group of elements in classes and Interfaces
+
+        Java Collection Framework enables the user to perform various data
+        manipulation operations like storing data, searching, sorting, insertion,
+        deletion, and updating of data on the group of elements.
+         */
+
+        /*
+        METHODS OF COLLECTION INTERFACE
+        -------------------------------
+
+        1.public boolean add(E e)      Add objects to collection.
+
+        2.public boolean addAll(Collection<? extends E> c) It is used to insert the
+                                                        specified collection elements
+                                                        in the invoking collection.
+
+        3.public boolean remove(Object element)  It is used to delete an element
+                                               from the collection
+
+        4.default boolean removeAll(Collection<?> c)  It is used to delete all
+                                                    the elements off the specified
+                                                    collection from the invoking
+                                                    collection.
+
+        5.default boolean removeIf(Predicate<? super E> filter) It is used to delete
+                                                              all the elements of
+                                                              the collection that
+                                                              satisfy the specified.
+
+        6.public boolean retainAll(Collection<?> c)  It is used to delete all the
+                                                     elements of invoking collection
+                                                     except the specified collection.
+
+        7.public int size()    It returns the total number of elements in the collection.
+
+        8.public void clear()  It removes the total number of elements from the collection.
+
+        9.public boolean contains(Object element) It is used to search an element.
+
+        10.public boolean containsAll(Collection<?> c) It is used to search the
+                                                       specified collection in the
+                                                       collection.
+
+        11.public Iterator iterator()   It returns an iterator.
+
+        12.public Object[] toArray()    It converts collection into array.
+
+        13.public <T> T[] toArray(T[] a)  It converts collection into
+                                          array. Here, the runtime type
+                                          of the returned array is that
+                                          of the specified array.
+
+        14.public boolean isEmpty()  It checks if collection is empty.
+
+        15.default Stream<E> parallelStream() It returns a possibly parallel Stream
+                                              with the collection as its source.
+
+        16.default Stream<E> stream()    It returns a sequential Stream with
+                                         the collection as its source.
+
+        17.default Spliterator<E> spliterator()  It generates a Spliterator over
+                                                 the specified elements in the
+                                                 collection.
+
+        18.public boolean equals(Object element) It matches two collections.
+
+        19.public int hashCode() It returns the hash code number of the collection.
+
+         */
+        /*
+        Set interface
+        The set interface is inherited from the Java collection interface a Set interface
+        cannot store duplicate/redundant elements in it. Here's an example based on a set interface
+         */
+
+        NamesAll n2 = new NamesAll(nameThree);
+        n2.tellName();
+        numDashedLine();
+
+        int count[] = {21, 23, 43, 53, 22, 65, 22};
+
+        Set<Integer> set = new HashSet<>();
+
+        try {
+            for (int i = 0; i <= count.length - 1; i++) {
+                set.add(count[i]);
+            }
+            System.out.println(set);
+            TreeSet<Integer> sortedSet = new TreeSet<>(set);
+            System.out.println("The sorted list is");
+            System.out.println(sortedSet);
+            System.out.println("First element of the set is: " + sortedSet.first());
+            System.out.println("last element of the set is: " + sortedSet.last());
+        } catch (Exception e) {
+            logger.info("BOOM!" + e.getMessage());
+        }
+                /*
+        Set interface
+        Set Interface in Java is present in java.util package. It extends the Collection interface.
+        It represents the unordered set of elements which doesn't allow us to store the duplicate
+        items. We can store at most one null value in Set. Set is implemented by HashSet, LinkedHashSet,
+        and TreeSet.
+        Set can be instantiated as:
+        Set<data-type> s1 = new HashSet<data-type>();
+        Set<data-type> s2 = new LinkedHashSet<data-type>();
+        Set<data-type> s3 = new TreeSet<data-type>();
+         */
+        NamesAll n3 = new NamesAll(nameFour);
+        n3.tellName();
+        numDashedLine();
+
+        /*
+        HashSet
+        HashSet class implements Set Interface. It represents the collection that
+        uses a hash table for storage. Hashing is used to store the elements
+        in the HashSet. It contains unique items.
+         */
+        HashSet<String> set1 = new HashSet<>();
+        set1.add("Java");
+        set1.add("Trap");
+        set1.add("Java");
+        set1.add("ABC");
+        Iterator<String> itr = set1.iterator();
+        while (itr.hasNext()) {
+            System.out.println(itr.next());
+        }
+
 
     }
 
-    public static void dashedLine() {
-        count ++;
+
+    public static void numDashedLine() {
+        count++;
         System.out.println(count + ". " + dashed);
     }
 
+    public static void dashedLine() {
+        System.out.println(dashed);
+    }
 }

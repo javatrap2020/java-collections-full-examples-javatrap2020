@@ -9,3 +9,7 @@ Tsrc/main/java/com/javatrap2020_full_examples_java_collections/AllCollectionJava
 build.gradle,f\0\f07866736216be0ee2aba49e392191aeae700a35
 A
 gradle.properties,2\a\2afbb999f001938c88fa43fc2ef52abf0f8213e4
+z
+Jsrc/main/java/com/javatrap2020_full_examples_java_collections/Persons.java,6\0\60a884529d63cb637b658bbfc23c3524b2bdc31e
+y
+Isrc/main/java/com/javatrap2020_full_examples_java_collections/Person.java,4\4\44af9d5ec1bc5acacb1eaea55d3071ff3c1786ea
