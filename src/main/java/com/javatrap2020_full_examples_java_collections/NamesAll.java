@@ -24,6 +24,12 @@ public class NamesAll {
             case COLLECTION_SET_HASH_SET:
                 System.out.print(" Collection HashSet ");
                 break;
+            case COLLECTION_SET_LINKED_HASH_SET:
+                System.out.print(" Collection LinkedHashSet ");
+                break;
+            case COLLECTION_SET_TREE_SET:
+                System.out.print(" Collection TreeSet ");
+                break;
             default:
                 System.out.print("the end");
                 break;

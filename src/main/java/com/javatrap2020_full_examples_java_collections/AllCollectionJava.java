@@ -3,11 +3,14 @@ package com.javatrap2020_full_examples_java_collections;
 import java.util.ArrayList;
 import java.util.HashSet;
 import java.util.Iterator;
+import java.util.LinkedHashSet;
 import java.util.List;
 import java.util.Set;
+import java.util.SortedSet;
 import java.util.TreeSet;
 import java.util.logging.Logger;
 
+@SuppressWarnings("unchecked")
 public class AllCollectionJava {
 
     private final static Logger logger = Logger.getLogger(AllCollectionJava.class.getName());
@@ -18,6 +21,8 @@ public class AllCollectionJava {
     final static NamesEnum nameTwo = NamesEnum.COLLECTION;
     final static NamesEnum nameThree = NamesEnum.COLLECTION_SET;
     final static NamesEnum nameFour = NamesEnum.COLLECTION_SET_HASH_SET;
+    final static NamesEnum nameFive = NamesEnum.COLLECTION_SET_LINKED_HASH_SET;
+    final static NamesEnum nameSix = NamesEnum.COLLECTION_SET_TREE_SET;
 
     public static void main(String[] args) {
         NamesAll n = new NamesAll(nameOne);
@@ -38,7 +43,7 @@ public class AllCollectionJava {
         list.add("three");
 
         for (String element : list) {
-            System.out.println(element.toString());
+            System.out.println(element);
         }
         /*
         This example first creates a new List and adds 3 elements to it. Then it
@@ -226,6 +231,7 @@ public class AllCollectionJava {
 
         try {
             for (int i = 0; i <= count.length - 1; i++) {
+            //for (int i = 0; i <= 7; i++) { //ERROR BOOM!
                 set.add(count[i]);
             }
             System.out.println(set);
@@ -263,10 +269,81 @@ public class AllCollectionJava {
         set1.add("Trap");
         set1.add("Java");
         set1.add("ABC");
+        set1.add("D");
+        set1.add("F");
+        set1.add("J");
         Iterator<String> itr = set1.iterator();
         while (itr.hasNext()) {
             System.out.println(itr.next());
         }
+
+        NamesAll n4 = new NamesAll(nameFive);
+        n4.tellName();
+        numDashedLine();
+        /*
+        LinkedHashSet
+        LinkedHashSet class represents the LinkedList implementation of Set Interface. It
+        extends the HashSet class and implements Set interface. Like HashSet, it also
+        contains unique elements. It maintains the insertion order and permits null elements.
+         */
+        LinkedHashSet<String> set2 = new LinkedHashSet<>();
+        set2.add("Java");
+        set2.add("Trap");
+        set2.add("Java");
+        set2.add("ABC");
+        set2.add("D");
+        set2.add("F");
+        Iterator<String> itr2 = set2.iterator();
+        while (itr2.hasNext()) {
+            System.out.println(itr2.next());
+        }
+
+        NamesAll n5 = new NamesAll(nameSix);
+        n5.tellName();
+        numDashedLine();
+
+        /*
+        SortedSet Interface
+        SortedSet is the alternate of Set interface that provides a total ordering
+        on its elements. The elements of the SortedSet are arranged in the
+        increasing (ascending) order. The SortedSet provides the additional methods
+        that inhibit the natural ordering of the elements.
+        SortedSet<data-type> set = new TreeSet();
+
+         */
+        /*
+        TreeSet
+        Java TreeSet class implements the Set interface that uses a tree for storage.
+        Like HashSet, TreeSet also contains unique elements. However, the access and
+        retrieval time of TreeSet is quite fast. The elements in TreeSet stored
+        in ascending order.
+         */
+        TreeSet<String> set3 = new TreeSet<>();
+        set3.add("Java");
+        set3.add("Trap");
+        set3.add("Java");
+        set3.add("ABC");
+        set3.add("F");
+        set3.add("D");
+        set3.add("A");
+        Iterator<String> itr3 = set3.iterator();
+        while (itr3.hasNext()){
+            System.out.println(itr3.next());
+        }
+
+        dashedLine();
+        SortedSet set4 = new TreeSet();
+        set4.add("John");
+        set4.add("Bob");
+        set4.add("Smith");
+        Iterator iterator1 = set4.iterator();
+        while (iterator1.hasNext()) {
+            Object element = iterator1.next();
+            System.out.println(element.toString());
+        }
+
+
+
 
 
     }
