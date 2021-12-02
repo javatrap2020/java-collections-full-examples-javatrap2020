@@ -1,40 +1,59 @@
 
-V
-java:S1197ß"8Move the array designator from the variable to the type.(©æêñ8Öé…Ö/
-Y	java:S125÷"<This block of commented-out lines of code should be removed.(úìÑ¿8‘ÿ‘Ö/
-{	java:S115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(¥çµçûÿÿÿÿ8¢ç¾øĞ/
-V	java:S106‹"9Replace this use of System.out or System.err by a logger.(œ•é‹8¢•‡«Ñ/
-b
-java:S1124"EReorder the modifiers to comply with the Java Language Specification.(µ÷şÂ8˜ÚúĞ/
-[	java:S106é"9Replace this use of System.out or System.err by a logger.(°×Ø¦ÿÿÿÿÿ8‹ÍÆÖ/
-V	java:S106ë"9Replace this use of System.out or System.err by a logger.(šÒßê8‹ÍÆÖ/
-g
-java:S1124"EReorder the modifiers to comply with the Java Language Specification.(¥çµçûÿÿÿÿ8„êÖ/
-[	java:S106ê"9Replace this use of System.out or System.err by a logger.(ùğ²şÿÿÿÿ8‹ÍÆÖ/
-W
-java:S1611W"5Remove the parentheses around the "element" parameter(õú£·øÿÿÿÿ8˜ñ´¢Ñ/
-b
-java:S1124"EReorder the modifiers to comply with the Java Language Specification.(ü·çç8¢ç¾øĞ/
-U	java:S106)"9Replace this use of System.out or System.err by a logger.(·áÃ8øìªøĞ/
-Z	java:S106X"9Replace this use of System.out or System.err by a logger.(¬ĞË‹ùÿÿÿÿ8œµ¢Ñ/
-V	java:S106ì"9Replace this use of System.out or System.err by a logger.(ªïõù8‹ÍÆÖ/
-V	java:S106ç"9Replace this use of System.out or System.err by a logger.(ç’¤™8‹ÍÆÖ/
-g
-java:S1124"EReorder the modifiers to comply with the Java Language Specification.(ÅîÎíøÿÿÿÿ8Èïà…Ö/
-g
-java:S1124"EReorder the modifiers to comply with the Java Language Specification.(¦Ï˜‰üÿÿÿÿ8Ëÿã’Ö/
-X	java:S125^"<This block of commented-out lines of code should be removed.(Ç¥¹õ8Š™£Ñ/
-[	java:S106Œ"9Replace this use of System.out or System.err by a logger.(ˆ¢Ûßüÿÿÿÿ8ıü¼’Ö/
-g
-java:S1124"EReorder the modifiers to comply with the Java Language Specification.(Å¬áúÿÿÿÿ8šÎ¦ùĞ/
-Z	java:S106E"9Replace this use of System.out or System.err by a logger.(¬ĞË‹ùÿÿÿÿ8øìªøĞ/
+{	java:S115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(¥çµçûÿÿÿÿ8¢ç¾øĞ/
+^	java:S125ì"<This block of commented-out lines of code should be removed.(è¾ÕÂøÿÿÿÿ8û±ÑâÖ/
+V	java:S106„"9Replace this use of System.out or System.err by a logger.(Á É8±¼Ë¶×/
+[	java:S106ñ"9Replace this use of System.out or System.err by a logger.(°×Ø¦ÿÿÿÿÿ8‹ÍÆÖ/
+[	java:S106—"9Replace this use of System.out or System.err by a logger.(ˆ¢Ûßüÿÿÿÿ8ıü¼’Ö/
+Z	java:S106L"9Replace this use of System.out or System.err by a logger.(¬ĞË‹ùÿÿÿÿ8øìªøĞ/
 c
-java:S1192&"FDefine a constant instead of duplicating this literal "three" 3 times.(ŞóÚ8âø±¢Ñ/
-N
-java:S1612W",Replace this lambda with a method reference.(õú£·øÿÿÿÿ8Ã¦µ¢Ñ/
-N
-java:S1602W",Remove useless curly braces around statement(õú£·øÿÿÿÿ8œµ¢Ñ/
-V	java:S106œ"9Replace this use of System.out or System.err by a logger.(Á É8­ıÇåÕ/
-[	java:S106 "9Replace this use of System.out or System.err by a logger.(ÇÀÔ“ÿÿÿÿÿ8ÅùÇ’Ö/
+java:S1192-"FDefine a constant instead of duplicating this literal "three" 3 times.(ŞóÚ8âø±¢Ñ/
+Y	java:S125ÿ"<This block of commented-out lines of code should be removed.(úìÑ¿8‘ÿ‘Ö/
 g
-java:S1858)"J"element" is already a string, there's no need to call "toString()" on it.(·áÃ8ÀÎ¿Ö/
+java:S1124"EReorder the modifiers to comply with the Java Language Specification.(¦Ï˜‰üÿÿÿÿ8Ëÿã’Ö/
+g
+java:S1124"EReorder the modifiers to comply with the Java Language Specification.(Å¬áúÿÿÿÿ8šÎ¦ùĞ/
+a
+java:S1124"EReorder the modifiers to comply with the Java Language Specification.(¤¯+8·å­·×/
+[	java:S106Í"9Replace this use of System.out or System.err by a logger.(ö°Ã§ÿÿÿÿÿ8üĞõäÖ/
+[	java:S106ˆ"9Replace this use of System.out or System.err by a logger.(ÇÀÔ“ÿÿÿÿÿ8±¼Ë¶×/
+V	java:S106ï"9Replace this use of System.out or System.err by a logger.(ç’¤™8‹ÍÆÖ/
+Y	java:S125å"<This block of commented-out lines of code should be removed.(ü±¿Ù8ìçÄ¶×/
+V	java:S106ó"9Replace this use of System.out or System.err by a logger.(šÒßê8‹ÍÆÖ/
+[	java:S106ò"9Replace this use of System.out or System.err by a logger.(ùğ²şÿÿÿÿ8‹ÍÆÖ/
+V	java:S106ô"9Replace this use of System.out or System.err by a logger.(ªïõù8‹ÍÆÖ/
+V
+java:S1197æ"8Move the array designator from the variable to the type.(©æêñ8Öé…Ö/
+g
+java:S1124"EReorder the modifiers to comply with the Java Language Specification.(ûòòşÿÿÿÿ8·å­·×/
+N
+java:S1602^",Remove useless curly braces around statement(õú£·øÿÿÿÿ8œµ¢Ñ/
+V	java:S106¬"9Replace this use of System.out or System.err by a logger.(ÿÿ×È8®¸âÖ/
+^	java:S125¹"<This block of commented-out lines of code should be removed.(úÜô şÿÿÿÿ8»ØÎäÖ/
+g
+java:S1124"EReorder the modifiers to comply with the Java Language Specification.(¥û»Àüÿÿÿÿ8à“©âÖ/
+R
+java:S3740Ñ"/Provide the parametrized type for this generic.(±‡°ıÿÿÿÿ8Œ›´åÖ/
+g
+java:S1124"EReorder the modifiers to comply with the Java Language Specification.(ÍÏíÛşÿÿÿÿ8ÜäèäÖ/
+Z	java:S106_"9Replace this use of System.out or System.err by a logger.(¬ĞË‹ùÿÿÿÿ8œµ¢Ñ/
+V	java:S106Ø"9Replace this use of System.out or System.err by a logger.(·áÃ8½¦ åÖ/
+b
+java:S1124"EReorder the modifiers to comply with the Java Language Specification.(ü·çç8©û¯æÖ/
+R
+java:S3740Ñ"/Provide the parametrized type for this generic.(±‡°ıÿÿÿÿ8¿êÌåÖ/
+V	java:S106’"9Replace this use of System.out or System.err by a logger.(œ•é‹8¢•‡«Ñ/
+L
+java:S3740Õ"/Provide the parametrized type for this generic.(¿æ–`8½¦ åÖ/
+b
+java:S1124"EReorder the modifiers to comply with the Java Language Specification.(µ÷şÂ8˜ÚúĞ/
+X	java:S125e"<This block of commented-out lines of code should be removed.(Ç¥¹õ8Š™£Ñ/
+N
+java:S1612^",Replace this lambda with a method reference.(õú£·øÿÿÿÿ8Ã¦µ¢Ñ/
+g
+java:S1124"EReorder the modifiers to comply with the Java Language Specification.(ÅîÎíøÿÿÿÿ8Èïà…Ö/
+Z	java:S1060"9Replace this use of System.out or System.err by a logger.(¬ĞË‹ùÿÿÿÿ8øìªøĞ/
+[	java:S106õ"9Replace this use of System.out or System.err by a logger.(Ê½§›ûÿÿÿÿ8‰±¬¹×/
+W
+java:S1611^"5Remove the parentheses around the "element" parameter(õú£·øÿÿÿÿ8˜ñ´¢Ñ/
+g
+java:S1124"EReorder the modifiers to comply with the Java Language Specification.(¥çµçûÿÿÿÿ8„êÖ/

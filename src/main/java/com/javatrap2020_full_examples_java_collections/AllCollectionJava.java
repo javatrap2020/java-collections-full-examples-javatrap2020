@@ -23,6 +23,8 @@ public class AllCollectionJava {
     final static NamesEnum nameFour = NamesEnum.COLLECTION_SET_HASH_SET;
     final static NamesEnum nameFive = NamesEnum.COLLECTION_SET_LINKED_HASH_SET;
     final static NamesEnum nameSix = NamesEnum.COLLECTION_SET_TREE_SET;
+    final static NamesEnum nameSeven = NamesEnum.COLLECTION_LIST;
+    final static NamesEnum nameEight = NamesEnum.COLLECTION_LIST_ARRAY_LIST;
 
     public static void main(String[] args) {
         NamesAll n = new NamesAll(nameOne);
@@ -342,10 +344,58 @@ public class AllCollectionJava {
             System.out.println(element.toString());
         }
 
+        NamesAll n6 = new NamesAll(nameSeven);
+        n6.tellName();
+        numDashedLine();
 
+        /*
+        List interface
+        List interface is the child interface of Collection interface. It
+        inhibits a list type data structure in which we can store the
+        ordered collection of objects. It can have duplicate values.
+        List interface is implemented by the class ArrayList, LinkedList, Vector, and Stack.
+        List <data-type> list1 = new ArrayList();
+        List <data-type> list1 = new LinkedList();
+        List <data-type> list1 = new Vector();
+        List <data-type> list1 = new Stack();
+        Methods in List interface that can be used to insert, delete, and access the elements
+        from the list.
 
+         */
+        List<String> stringList = new ArrayList<>();
+        stringList.add("Java");
+        stringList.add("Trap");
+        stringList.add("Java");
+        stringList.add("ABC");
+        stringList.add("A");
+        stringList.add("A");
+        for (String allList : stringList)
+            System.out.println(allList);
 
+        NamesAll n7 = new NamesAll(nameEight);
+        n7.tellName();
+        numDashedLine();
+        /*
+        ArrayList
+        The ArrayList class implements the List interface. It uses a dynamic array to store
+        the duplicate element of different data types. The ArrayList class maintains
+        the insertion order and is non-synchronized. The elements stored in the ArrayList
+        class can be randomly accessed.
+         */
+        ArrayList<String> arrayList = new ArrayList<>();
+        arrayList.add("Java");
+        arrayList.add("Trap");
+        arrayList.add("Java");
+        arrayList.add("ABC");
+        arrayList.add("F");
+        arrayList.add("A");
 
+        Iterator iterator2 = arrayList.iterator();
+        while (iterator2.hasNext()) {
+            System.out.println(iterator2.next());
+        }
+
+        
     }
 
 

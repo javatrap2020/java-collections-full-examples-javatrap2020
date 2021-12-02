@@ -30,6 +30,12 @@ public class NamesAll {
             case COLLECTION_SET_TREE_SET:
                 System.out.print(" Collection TreeSet ");
                 break;
+            case COLLECTION_LIST:
+                System.out.print(" Collection List ");
+                break;
+            case COLLECTION_LIST_ARRAY_LIST:
+                System.out.print(" Collection List ArrayList ");
+                break;
             default:
                 System.out.print("the end");
                 break;
