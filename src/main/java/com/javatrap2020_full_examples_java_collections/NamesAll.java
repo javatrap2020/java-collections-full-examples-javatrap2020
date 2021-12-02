@@ -36,6 +36,9 @@ public class NamesAll {
             case COLLECTION_LIST_ARRAY_LIST:
                 System.out.print(" Collection List ArrayList ");
                 break;
+            case COLLECTION_LIST_LINKED_LIST:
+                System.out.print(" Collection List LinkedList ");
+                break;
             default:
                 System.out.print("the end");
                 break;

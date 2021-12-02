@@ -4,6 +4,7 @@ import java.util.ArrayList;
 import java.util.HashSet;
 import java.util.Iterator;
 import java.util.LinkedHashSet;
+import java.util.LinkedList;
 import java.util.List;
 import java.util.Set;
 import java.util.SortedSet;
@@ -25,6 +26,7 @@ public class AllCollectionJava {
     final static NamesEnum nameSix = NamesEnum.COLLECTION_SET_TREE_SET;
     final static NamesEnum nameSeven = NamesEnum.COLLECTION_LIST;
     final static NamesEnum nameEight = NamesEnum.COLLECTION_LIST_ARRAY_LIST;
+    final static NamesEnum nameNine = NamesEnum.COLLECTION_LIST_LINKED_LIST;
 
     public static void main(String[] args) {
         NamesAll n = new NamesAll(nameOne);
@@ -395,7 +397,31 @@ public class AllCollectionJava {
             System.out.println(iterator2.next());
         }
 
-        
+        NamesAll n8 = new NamesAll(nameNine);
+        n8.tellName();
+        numDashedLine();
+        /*
+        LinkedList
+        LinkedList implements the Collection interface. It uses a doubly linked list
+        internally to store the elements. It can store the duplicate elements.
+        It maintains the insertion order and is not synchronized. In LinkedList,
+        the manipulation is fast because no shifting is required.
+
+         */
+
+        LinkedList<String> linkedList = new LinkedList<>();
+        linkedList.add("Java");
+        linkedList.add("Trap");
+        linkedList.add("Java");
+        linkedList.add("ABC");
+        linkedList.add("F");
+        linkedList.add("A");
+        Iterator<String> iterator3 = linkedList.iterator();
+        while (iterator3.hasNext()) {
+            System.out.println(iterator3.next());
+        }
+
+
     }
 
 
