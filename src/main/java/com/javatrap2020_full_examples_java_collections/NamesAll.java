@@ -39,6 +39,12 @@ public class NamesAll {
             case COLLECTION_LIST_LINKED_LIST:
                 System.out.print(" Collection List LinkedList ");
                 break;
+            case COLLECTION_LIST_VECTOR:
+                System.out.print(" Collection List Vector ");
+                break;
+            case COLLECTION_LIST_VECTOR_STACK:
+                System.out.print(" Collection List Vector Stack ");
+                break;
             default:
                 System.out.print("the end");
                 break;

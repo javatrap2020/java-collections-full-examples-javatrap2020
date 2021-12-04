@@ -8,7 +8,9 @@ import java.util.LinkedList;
 import java.util.List;
 import java.util.Set;
 import java.util.SortedSet;
+import java.util.Stack;
 import java.util.TreeSet;
+import java.util.Vector;
 import java.util.logging.Logger;
 
 @SuppressWarnings("unchecked")
@@ -27,6 +29,8 @@ public class AllCollectionJava {
     final static NamesEnum nameSeven = NamesEnum.COLLECTION_LIST;
     final static NamesEnum nameEight = NamesEnum.COLLECTION_LIST_ARRAY_LIST;
     final static NamesEnum nameNine = NamesEnum.COLLECTION_LIST_LINKED_LIST;
+    final static NamesEnum nameTen = NamesEnum.COLLECTION_LIST_VECTOR;
+    final static NamesEnum nameEleven = NamesEnum.COLLECTION_LIST_VECTOR_STACK;
 
     public static void main(String[] args) {
         NamesAll n = new NamesAll(nameOne);
@@ -420,6 +424,114 @@ public class AllCollectionJava {
         while (iterator3.hasNext()) {
             System.out.println(iterator3.next());
         }
+
+        NamesAll n9 = new NamesAll(nameTen);
+        n9.tellName();
+        numDashedLine();
+        /*
+        Vector
+        Vector uses a dynamic array to store the data elements. It is similar to ArrayList.
+        However, it is synchronized and contains many methods that are not the part of
+        Collection framework.
+         */
+        Vector<String> vector = new Vector<>();
+        vector.add("Java");
+        vector.add("Trap");
+        vector.add("Java");
+        vector.add("ABC");
+        vector.add("F");
+        vector.add("A");
+        Iterator<String> iterator4 = vector.iterator();
+        while (iterator4.hasNext()) {
+            System.out.println(iterator4.next());
+        }
+
+        NamesAll n10 = new NamesAll(nameEleven);
+        n10.tellName();
+        numDashedLine();
+        /*
+        Stack
+        The Stack is the subclass of Vector. It implements the last-in-first-out data
+        structure, i.e., Stack. The Stack contains all of the methods of
+        Vector class and also provides its methods like boolean push(),
+        boolean peek(), boolean push(object o), which defines its properties.
+         */
+        Stack<String> stack = new Stack<>();
+        stack.push("Java");
+        stack.push("Trap");
+        stack.push("Java");
+        stack.push("ABC");
+        stack.push("A");
+        stack.push("F");
+        stack.push("W");
+        stack.pop();
+
+        Iterator<String> iterator5 = stack.iterator();
+        while (iterator5.hasNext()) {
+            System.out.println(iterator5.next());
+        }
+
+        dashedLine();
+        /*
+        Array-Based Stack Implementation
+        As our first implementation of the stack ADT, we store elements in
+        an array, named data, with capacity N for some fixed N. We
+        oriented the stack so that the bottom element of the stack
+        is always stored in cell data[0], and the top element of the
+        stack in cell data[t] for index t that is equal to one
+        less that the current size of the stack.
+         */
+
+        StackInterface<Integer> stackInterface = new ArrayStack<>();
+        stackInterface.push(5);
+        stackInterface.push(3);
+        System.out.println("Size " + stackInterface.size());
+        System.out.println("pop " + stackInterface.pop());
+        System.out.println("Is empty ? " + stackInterface.isEmpty());
+        System.out.println("pop " + stackInterface.pop());
+        System.out.println("Is empty ? " + stackInterface.isEmpty());
+        System.out.println("pop " + stackInterface.pop());
+        stackInterface.push(7);
+        stackInterface.push(9);
+        System.out.println("top " + stackInterface.top());
+        stackInterface.push(4);
+        System.out.println("Size " + stackInterface.size());
+        System.out.println("pop " + stackInterface.pop());
+        stackInterface.push(6);
+        stackInterface.push(8);
+        System.out.println("Size " + stackInterface.size());
+        System.out.println("pop " + stackInterface.pop());
+
+        dashedLine();
+        /*
+        Java Stack Basics
+        A Stack is a data structure where you add elements to the "top"
+        of the stack, and also remove elements from the top again.
+        This is also referred to as the "Last In First Out (LIFO)" principle.
+        In contrast, a Java Queue uses a "First In First Out (FIFO)" principle,
+        where elements are added to the end of the queue, and removed from
+        the beginning of the queue.
+        Stack stack = new Stack();
+
+        Stack with a Generic Type
+        Stack<String> stack = new Stack<String>();
+         */
+        /*
+        Pop Element From Stack
+        Once an element has been pushed onto a Java Stack, you can pop that element
+        from the Stack again. Once an element is popped off the Stack, the element is
+        removed from the Stack. The top element of the Stack is then whatever element
+        that was pushed onto the Stack just before the element just popped.
+         */
+        Stack<String> stack2 = new Stack<>();
+        stack2.push("Java");
+        String topElement = stack2.pop();
+        System.out.println(topElement);
+
+        dashedLine();
+
+
+
 
 
     }
