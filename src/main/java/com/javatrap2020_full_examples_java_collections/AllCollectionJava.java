@@ -504,6 +504,46 @@ public class AllCollectionJava {
 
         dashedLine();
         /*
+        Implementing a Stack with a Singly Linked List
+        We demonstrate how the Stack interface can be easily implemented
+        using a singly linked list for storage. Unlike our array-based
+        implementation, the linked-list approach has memory usage
+        that is always proportional to the number of actual elements currently
+        in the stack, and without an arbitrary capacity limit.
+
+        Singly Linked Lists
+        The linked list instance must keep a reference to the first node
+        of the list, known as the head. Without an explicit reference to the
+        head, there would be no way to locate that node (or indirectly, any
+        others). The last node of the list is known as the tail. The tail
+        of a list can be found by traversing the linked list - starting at
+        the head and moving from one node to another by following each
+        node's next reference. We can identify the tail as the node
+        having null as its next reference. This process is also known as link
+        hopping or pointer hopping.
+         */
+        StackInterface<Integer> stackInterface2 = new LinkedStack<>();
+        stackInterface2.push(6);
+        stackInterface2.push(4);
+        System.out.println("Size " + stackInterface2.size());
+        System.out.println("pop " + stackInterface2.pop());
+        System.out.println("Is empty ? " + stackInterface2.isEmpty());
+        System.out.println("pop " + stackInterface2.pop());
+        System.out.println("Is empty ? " + stackInterface2.isEmpty());
+        System.out.println("pop " + stackInterface2.pop());
+        stackInterface2.push(8);
+        stackInterface2.push(10);
+        System.out.println("top " + stackInterface2.top());
+        stackInterface2.push(3);
+        System.out.println("Size " + stackInterface2.size());
+        System.out.println("pop " + stackInterface2.pop());
+        stackInterface2.push(7);
+        stackInterface2.push(9);
+        System.out.println("Size " + stackInterface2.size());
+        System.out.println("pop " + stackInterface2.pop());
+
+        dashedLine();
+        /*
         Java Stack Basics
         A Stack is a data structure where you add elements to the "top"
         of the stack, and also remove elements from the top again.

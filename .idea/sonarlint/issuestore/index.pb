@@ -13,3 +13,7 @@ z
 Jsrc/main/java/com/javatrap2020_full_examples_java_collections/Persons.java,6\0\60a884529d63cb637b658bbfc23c3524b2bdc31e
 y
 Isrc/main/java/com/javatrap2020_full_examples_java_collections/Person.java,4\4\44af9d5ec1bc5acacb1eaea55d3071ff3c1786ea
+Å
+Qsrc/main/java/com/javatrap2020_full_examples_java_collections/StackInterface.java,f\8\f8fc936f12ff1fdddf9bdd429cbf83fb00fc900f
+}
+Msrc/main/java/com/javatrap2020_full_examples_java_collections/ArrayStack.java,e\2\e23613c96826e2a705926092fc8b29e695769acc
