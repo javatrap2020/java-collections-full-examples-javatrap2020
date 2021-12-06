@@ -12,6 +12,7 @@ import java.util.Stack;
 import java.util.TreeSet;
 import java.util.Vector;
 import java.util.logging.Logger;
+import java.util.stream.Stream;
 
 @SuppressWarnings("unchecked")
 public class AllCollectionJava {
@@ -67,7 +68,7 @@ public class AllCollectionJava {
         of a Java Iterable (a Java List in this example):
         */
         n.tellName();
-        numDashedLine();
+        dashedLine();
 
         List<String> listTwo = new ArrayList<>();
 
@@ -83,7 +84,7 @@ public class AllCollectionJava {
         }
 
         n.tellName();
-        numDashedLine();
+        dashedLine();
 
         /*
         The third way to iterate the elements of a Java Iterable is via its
@@ -141,7 +142,7 @@ public class AllCollectionJava {
          */
 
         n.tellName();
-        numDashedLine();
+        dashedLine();
 
         Person personOne = new Person("Javatrap2020", "Java", 20);
         Person personTwo = new Person("John", "Jo", 30);
@@ -555,8 +556,13 @@ public class AllCollectionJava {
 
         Stack with a Generic Type
         Stack<String> stack = new Stack<String>();
-         */
-        /*
+
+        Push Element on Stack
+        Once  you have a Java Stack instance, you can push elements to the top
+        of the Stack. The elements you push onto the Stack must be Java
+        objects.
+        stack.push("1");
+
         Pop Element From Stack
         Once an element has been pushed onto a Java Stack, you can pop that element
         from the Stack again. Once an element is popped off the Stack, the element is
@@ -565,15 +571,76 @@ public class AllCollectionJava {
          */
         Stack<String> stack2 = new Stack<>();
         stack2.push("Java");
+        stack2.push("1");
+        stack2.push("2");
+        stack2.push("3");
+        int index = stack2.search("2");
+        int size = stack2.size();
         String topElement = stack2.pop();
-        System.out.println(topElement);
+        System.out.println(" top:" + topElement + " search:" + index + " size:" + size);
+        Iterator iterator6 = stack2.iterator();
+        while (iterator6.hasNext()) {
+            Object value = iterator6.next();
+            System.out.println(value);
+        }
+        /*
+        Process Stack Using Stream
+        It is also possible to process the elements on a Java Stack via
+        the Java Stream Api. You do so by first obtaining a Stream
+        from the Stack via the stream() method.
+         */
+
+        Stream stream = stack2.stream();
+            stream.forEach((element) -> {
+                System.out.println(element);
+            });
 
         dashedLine();
+        /*
+        Reverse List Using Stack
+        You can use a Java Stack to reverse a Java List. You do so
+        by pushing all the elements from the List onto the Stack,
+        starting with the element with index 0, then 1 etc. Each element
+        is removed from the List, then pushed onto the Stack. Once all the elements
+        are on the Stack, you pop the elements off one by one and add them
+        back to the empty list.
+         */
 
+        List<String> list2 = new ArrayList<>();
+        list2.add("A");
+        list2.add("B");
+        list2.add("C");
+        System.out.println(list2);
+        Stack<String> stack3 = new Stack<>();
 
+            while (list2.size() > 0) {
+                stack3.push(list2.remove(0));
+            }
+            while (stack3.size() > 0) {
+                list2.add(stack3.pop());
+            }
+            System.out.println("Revers List using Stack: " + list2);
 
+        dashedLine();
+        List<String> list3 = new ArrayList<>();
+        list3.add("D");
+        list3.add("E");
+        list3.add("F");
+        System.out.println(list3);
+        List<String> listN = reverse((ArrayList<String>) list3);
+        System.out.println("Revers List using Stack: " + listN);
+    }
 
-
+    public static List<String> reverse(ArrayList<String> n) {
+        Stack<String> stack4 = new Stack<>();
+        while (!n.isEmpty()) {
+            stack4.push(n.get(0));
+            n.remove(0);
+        }
+        while (!stack4.isEmpty()) {
+            n.add(stack4.pop());
+        }
+        return n;
     }
 
 

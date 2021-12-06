@@ -1,5 +1,6 @@
 package com.javatrap2020_full_examples_java_collections;
 
+@SuppressWarnings("unchecked")
 public class SinglyLinkedList<E> {
 
     private static class Node<E> {

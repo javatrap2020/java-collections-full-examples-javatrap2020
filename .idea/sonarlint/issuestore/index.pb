@@ -17,3 +17,7 @@ Isrc/main/java/com/javatrap2020_full_examples_java_collections/Person.java,4\4\
 Qsrc/main/java/com/javatrap2020_full_examples_java_collections/StackInterface.java,f\8\f8fc936f12ff1fdddf9bdd429cbf83fb00fc900f
 }
 Msrc/main/java/com/javatrap2020_full_examples_java_collections/ArrayStack.java,e\2\e23613c96826e2a705926092fc8b29e695769acc
+ƒ
+Ssrc/main/java/com/javatrap2020_full_examples_java_collections/SinglyLinkedList.java,2\e\2e06883dbbbcf02d0cab2bb01b51f9f765f8c726
+~
+Nsrc/main/java/com/javatrap2020_full_examples_java_collections/LinkedStack.java,0\1\01d653ad8854bfc6c5dfaf186939ff22fdc8d6f2
