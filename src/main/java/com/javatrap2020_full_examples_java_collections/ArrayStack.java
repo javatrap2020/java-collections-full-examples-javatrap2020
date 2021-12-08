@@ -40,7 +40,7 @@ public class ArrayStack<E> implements StackInterface<E> {
 
     @Override
     public String toString() {
-        return "ArrayStack{" +
+        return Color.CYAN_BACKGROUND + "ArrayStack" + Color.RESET + "{"  +
                 "data=" + Arrays.toString(data) +
                 ", top=" + top +
                 '}';

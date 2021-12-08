@@ -6,6 +6,7 @@ import java.util.Iterator;
 import java.util.LinkedHashSet;
 import java.util.LinkedList;
 import java.util.List;
+import java.util.PriorityQueue;
 import java.util.Set;
 import java.util.SortedSet;
 import java.util.Stack;
@@ -32,6 +33,7 @@ public class AllCollectionJava {
     final static NamesEnum nameNine = NamesEnum.COLLECTION_LIST_LINKED_LIST;
     final static NamesEnum nameTen = NamesEnum.COLLECTION_LIST_VECTOR;
     final static NamesEnum nameEleven = NamesEnum.COLLECTION_LIST_VECTOR_STACK;
+    final static NamesEnum nameTwelve = NamesEnum.COLLECTION_QUEUE_PRIORITY_QUEUE;
 
     public static void main(String[] args) {
         NamesAll n = new NamesAll(nameOne);
@@ -140,7 +142,6 @@ public class AllCollectionJava {
         for iterating over arrays and collections. An Iterable interface can
         also be implemented to create custom behavior.
          */
-
         n.tellName();
         dashedLine();
 
@@ -229,8 +230,7 @@ public class AllCollectionJava {
         The set interface is inherited from the Java collection interface a Set interface
         cannot store duplicate/redundant elements in it. Here's an example based on a set interface
          */
-
-        NamesAll n2 = new NamesAll(nameThree);
+        NamesAll n2 = new NamesAll(nameFour);
         n2.tellName();
         numDashedLine();
 
@@ -263,10 +263,8 @@ public class AllCollectionJava {
         Set<data-type> s2 = new LinkedHashSet<data-type>();
         Set<data-type> s3 = new TreeSet<data-type>();
          */
-        NamesAll n3 = new NamesAll(nameFour);
-        n3.tellName();
-        numDashedLine();
-
+        n2.tellName();
+        dashedLine();
         /*
         HashSet
         HashSet class implements Set Interface. It represents the collection that
@@ -286,8 +284,8 @@ public class AllCollectionJava {
             System.out.println(itr.next());
         }
 
-        NamesAll n4 = new NamesAll(nameFive);
-        n4.tellName();
+        NamesAll n3 = new NamesAll(nameFive);
+        n3.tellName();
         numDashedLine();
         /*
         LinkedHashSet
@@ -307,8 +305,8 @@ public class AllCollectionJava {
             System.out.println(itr2.next());
         }
 
-        NamesAll n5 = new NamesAll(nameSix);
-        n5.tellName();
+        NamesAll n4 = new NamesAll(nameSix);
+        n4.tellName();
         numDashedLine();
 
         /*
@@ -340,6 +338,7 @@ public class AllCollectionJava {
             System.out.println(itr3.next());
         }
 
+        n4.tellName();
         dashedLine();
         SortedSet set4 = new TreeSet();
         set4.add("John");
@@ -351,8 +350,8 @@ public class AllCollectionJava {
             System.out.println(element.toString());
         }
 
-        NamesAll n6 = new NamesAll(nameSeven);
-        n6.tellName();
+        NamesAll n5 = new NamesAll(nameEight);
+        n5.tellName();
         numDashedLine();
 
         /*
@@ -379,9 +378,8 @@ public class AllCollectionJava {
         for (String allList : stringList)
             System.out.println(allList);
 
-        NamesAll n7 = new NamesAll(nameEight);
-        n7.tellName();
-        numDashedLine();
+        n5.tellName();
+        dashedLine();
         /*
         ArrayList
         The ArrayList class implements the List interface. It uses a dynamic array to store
@@ -402,8 +400,8 @@ public class AllCollectionJava {
             System.out.println(iterator2.next());
         }
 
-        NamesAll n8 = new NamesAll(nameNine);
-        n8.tellName();
+        NamesAll n6 = new NamesAll(nameNine);
+        n6.tellName();
         numDashedLine();
         /*
         LinkedList
@@ -426,8 +424,8 @@ public class AllCollectionJava {
             System.out.println(iterator3.next());
         }
 
-        NamesAll n9 = new NamesAll(nameTen);
-        n9.tellName();
+        NamesAll n7 = new NamesAll(nameTen);
+        n7.tellName();
         numDashedLine();
         /*
         Vector
@@ -447,8 +445,8 @@ public class AllCollectionJava {
             System.out.println(iterator4.next());
         }
 
-        NamesAll n10 = new NamesAll(nameEleven);
-        n10.tellName();
+        NamesAll n8 = new NamesAll(nameEleven);
+        n8.tellName();
         numDashedLine();
         /*
         Stack
@@ -472,6 +470,7 @@ public class AllCollectionJava {
             System.out.println(iterator5.next());
         }
 
+        n8.tellName();
         dashedLine();
         /*
         Array-Based Stack Implementation
@@ -503,6 +502,7 @@ public class AllCollectionJava {
         System.out.println("Size " + stackInterface.size());
         System.out.println("pop " + stackInterface.pop());
 
+        n8.tellName();
         dashedLine();
         /*
         Implementing a Stack with a Singly Linked List
@@ -543,6 +543,7 @@ public class AllCollectionJava {
         System.out.println("Size " + stackInterface2.size());
         System.out.println("pop " + stackInterface2.pop());
 
+        n8.tellName();
         dashedLine();
         /*
         Java Stack Basics
@@ -595,6 +596,7 @@ public class AllCollectionJava {
                 System.out.println(element);
             });
 
+        n8.tellName();
         dashedLine();
         /*
         Reverse List Using Stack
@@ -621,6 +623,7 @@ public class AllCollectionJava {
             }
             System.out.println("Revers List using Stack: " + list2);
 
+        n8.tellName();
         dashedLine();
         List<String> list3 = new ArrayList<>();
         list3.add("D");
@@ -629,6 +632,46 @@ public class AllCollectionJava {
         System.out.println(list3);
         List<String> listN = reverse((ArrayList<String>) list3);
         System.out.println("Revers List using Stack: " + listN);
+
+        NamesAll n9 = new NamesAll(nameTwelve);
+        n9.tellName();
+        numDashedLine();
+        /*
+        Queue Interface
+        Queue interface maintains the first-in-first-out order. It can be
+        defined as an ordered list that is used to hold the elements which
+        are about to be processed. There are various classes like PriorityQueue,
+        DeQueue, and ArrayDeque which implements the Queue interface.
+        Queue<String> q1 = new PriorityQueue();
+        Queue<String> q2 = new ArrayDeque();
+         */
+        /*
+        PriorityQueue
+        The PriorityQueue class implements the Queue interface.
+        It holds the elements or objects which are to be processed
+        by their priorities. PriorityQueue doesn't allow null
+        values to be stored in the queue.
+         */
+        PriorityQueue<String> priorityQueue = new PriorityQueue<>();
+        priorityQueue.add("Java Trap");
+        priorityQueue.add("ABC DFE");
+        priorityQueue.add("XYZxyz");
+        priorityQueue.add("Rr");
+        System.out.println("head: " + priorityQueue.element());
+        System.out.println("head: " + priorityQueue.peek());
+        System.out.println("iterating the queue elements: ");
+        Iterator iterator7 = priorityQueue.iterator();
+        while (iterator7.hasNext()) {
+            System.out.println(iterator7.next());
+        }
+        priorityQueue.remove();
+        priorityQueue.poll();
+        System.out.println("after removing two elements: ");
+        Iterator<String> iterator8 = priorityQueue.iterator();
+        while (iterator8.hasNext()) {
+            System.out.println(iterator8.next());
+        }
+
     }
 
     public static List<String> reverse(ArrayList<String> n) {
@@ -646,10 +689,10 @@ public class AllCollectionJava {
 
     public static void numDashedLine() {
         count++;
-        System.out.println(count + ". " + dashed);
+        System.out.println(count + ". " + dashed + "\n");
     }
 
     public static void dashedLine() {
-        System.out.println(dashed);
+        System.out.println("\n" + dashed + "\n");
     }
 }

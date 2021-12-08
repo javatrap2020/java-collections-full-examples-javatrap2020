@@ -13,40 +13,43 @@ public class NamesAll {
     public void tellName() {
         switch (name) {
             case ITERABLE:
-                System.out.print(" Iterable ");
+                System.out.print("\n" + Color.CYAN_BACKGROUND + "Iterable" + Color.RESET + " ");
                 break;
             case COLLECTION:
-                System.out.print(" Collection ");
+                System.out.print("\n" + Color.CYAN_BACKGROUND + "Collection" + Color.RESET + " ");
                 break;
             case COLLECTION_SET:
-                System.out.print(" Collection Set ");
+                System.out.print("\n" + Color.CYAN_BACKGROUND + "Collection Set" + Color.RESET + " ");
                 break;
             case COLLECTION_SET_HASH_SET:
-                System.out.print(" Collection HashSet ");
+                System.out.print("\n" + Color.CYAN_BACKGROUND + "Collection Set HashSet" + Color.RESET + " ");
                 break;
             case COLLECTION_SET_LINKED_HASH_SET:
-                System.out.print(" Collection LinkedHashSet ");
+                System.out.print("\n" + Color.CYAN_BACKGROUND + "Collection Set LinkedHashSet" + Color.RESET + " ");
                 break;
             case COLLECTION_SET_TREE_SET:
-                System.out.print(" Collection TreeSet ");
+                System.out.print("\n" + Color.CYAN_BACKGROUND + "Collection Set TreeSet" + Color.RESET + " ");
                 break;
             case COLLECTION_LIST:
-                System.out.print(" Collection List ");
+                System.out.print("\n" + Color.CYAN_BACKGROUND + "Collection List" + Color.RESET + " ");
                 break;
             case COLLECTION_LIST_ARRAY_LIST:
-                System.out.print(" Collection List ArrayList ");
+                System.out.print("\n" + Color.CYAN_BACKGROUND + "Collection List ArrayList" + Color.RESET + " ");
                 break;
             case COLLECTION_LIST_LINKED_LIST:
-                System.out.print(" Collection List LinkedList ");
+                System.out.print("\n" + Color.CYAN_BACKGROUND + "Collection List LinkedList" + Color.RESET + " ");
                 break;
             case COLLECTION_LIST_VECTOR:
-                System.out.print(" Collection List Vector ");
+                System.out.print("\n" + Color.CYAN_BACKGROUND + "Collection List Vector" + Color.RESET + " ");
                 break;
             case COLLECTION_LIST_VECTOR_STACK:
-                System.out.print(" Collection List Vector Stack ");
+                System.out.print("\n" + Color.CYAN_BACKGROUND + "Collection List Vector Stack" + Color.RESET + " ");
+                break;
+            case COLLECTION_QUEUE_PRIORITY_QUEUE:
+                System.out.print("\n" + Color.CYAN_BACKGROUND + "Collection Queue PriorityQueue" + Color.RESET + " ");
                 break;
             default:
-                System.out.print("the end");
+                System.out.print("\n" + Color.CYAN_BACKGROUND + "the end" + Color.RESET + " ");
                 break;
         }
     }

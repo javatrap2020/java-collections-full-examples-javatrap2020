@@ -32,7 +32,7 @@ public class LinkedStack<E> implements StackInterface<E> {
 
     @Override
     public String toString() {
-        return "LinkedStack{" +
+        return Color.CYAN_BACKGROUND + "LinkedStack" + Color.RESET + "{" +
                 "data=" + data +
                 '}';
     }

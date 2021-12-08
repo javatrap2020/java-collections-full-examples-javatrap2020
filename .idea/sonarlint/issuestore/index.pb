@@ -21,3 +21,5 @@ Msrc/main/java/com/javatrap2020_full_examples_java_collections/ArrayStack.java,
 Ssrc/main/java/com/javatrap2020_full_examples_java_collections/SinglyLinkedList.java,2\e\2e06883dbbbcf02d0cab2bb01b51f9f765f8c726
 ~
 Nsrc/main/java/com/javatrap2020_full_examples_java_collections/LinkedStack.java,0\1\01d653ad8854bfc6c5dfaf186939ff22fdc8d6f2
+x
+Hsrc/main/java/com/javatrap2020_full_examples_java_collections/Color.java,9\1\91451ced01f295cf96f4375d016d37b022ee6651
