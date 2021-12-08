@@ -25,6 +25,23 @@ test {
     useJUnit()
 }
 
+application {
+    mainClassName = 'demo.AllCollectionJava'
+}
+
+tasks.named('test') {
+    useJUnitPlatform()
+}
+
+//tasks.withType(Test) {
+//    useJUnitPlatform()
+//    testLogging {
+//        exceptionFormat "full"
+//        events "started", "skipped", "passed", "failed"
+//        showStandardStreams true
+//    }
+//}
+
 sourceSets {
     main {
         java {
