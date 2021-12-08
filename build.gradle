@@ -1,6 +1,5 @@
-plugins {
-    id 'java'
-}
+apply plugin: 'java'
+apply plugin: 'application'
 
 group 'org.example'
 version '1.0-SNAPSHOT'
@@ -9,9 +8,21 @@ repositories {
     mavenCentral()
 }
 
+sourceCompatibility = 1.8
+targetCompatibility = 1.8
+
 dependencies {
-    compile 'org.slf4j:slf4j-api:1.7.12'
-    testCompile group: 'junit', name: 'junit', version: '4.12'
+    implementation "joda-time:joda-time:2.2"
+    testImplementation "junit:junit:4.12"
+}
+
+jar {
+    archiveBaseName = 'gs-gradle'
+    archiveVersion =  '0.1.0'
+}
+
+test {
+    useJUnit()
 }
 
 sourceSets {

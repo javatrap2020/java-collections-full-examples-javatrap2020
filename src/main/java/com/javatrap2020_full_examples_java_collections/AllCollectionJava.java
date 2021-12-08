@@ -1,5 +1,6 @@
 package com.javatrap2020_full_examples_java_collections;
 
+import java.time.LocalTime;
 import java.util.ArrayList;
 import java.util.HashSet;
 import java.util.Iterator;
@@ -36,6 +37,10 @@ public class AllCollectionJava {
     final static NamesEnum nameTwelve = NamesEnum.COLLECTION_QUEUE_PRIORITY_QUEUE;
 
     public static void main(String[] args) {
+
+        LocalTime time1 = LocalTime.now();
+        System.out.println("The current local time is: " + time1);
+
         NamesAll n = new NamesAll(nameOne);
         n.tellName();
         numDashedLine();
