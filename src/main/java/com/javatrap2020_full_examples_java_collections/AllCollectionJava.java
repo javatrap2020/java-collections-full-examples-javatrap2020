@@ -3,12 +3,15 @@ package com.javatrap2020_full_examples_java_collections;
 import java.time.LocalTime;
 import java.util.ArrayDeque;
 import java.util.ArrayList;
+import java.util.Comparator;
 import java.util.Deque;
+import java.util.HashMap;
 import java.util.HashSet;
 import java.util.Iterator;
 import java.util.LinkedHashSet;
 import java.util.LinkedList;
 import java.util.List;
+import java.util.Map;
 import java.util.PriorityQueue;
 import java.util.Set;
 import java.util.SortedSet;
@@ -40,6 +43,9 @@ public class AllCollectionJava {
     final static NamesEnum nameEleven = NamesEnum.COLLECTION_LIST_VECTOR_STACK;
     final static NamesEnum nameTwelve = NamesEnum.COLLECTION_QUEUE_PRIORITY_QUEUE;
     final static NamesEnum nameThirteen = NamesEnum.COLLECTION_DEQUE_ARRAY_DEQUE;
+    final static NamesEnum nameFourteen = NamesEnum.MAP_HASH_MAP;
+    final static NamesEnum nameFifteen = NamesEnum.MAP_LINKED_HASH_MAP;
+    final static NamesEnum nameSixteen = NamesEnum.MAP_TREE_MAP;
 
     public static void main(String[] args) {
         NamesAll n = new NamesAll(nameOne);
@@ -710,8 +716,105 @@ public class AllCollectionJava {
             System.out.println(str);
         }
 
+        NamesAll n11 = new NamesAll(nameFourteen);
+        n11.tellName();
+        numDashedLine();
+        /*
+        Java Map Hierarchy
+        There are two interfaces for implementing Map in java:
+        Map and SortedMap, and three classes: HashMap, LinkedHashMap,
+        and TreeMap. A Map doesn't allow duplicate keys, but you can
+        have duplicate values. HashMap and LinkedHashMap allow null
+        keys and values, but TreeMap doesn't allow any null key or value.
+        A Map can't be traversed, so you need to convert it into Set
+        using keySet() or entrySet() method.
 
+        HashMap is the implementation of Map, but it doesn't maintain any order.
 
+        LinkedHashMap is the implementation of Map. It inherits
+        HashMap class. It maintains insertion order.
+
+        TreeMap is the implementation of Map and SortedMap.It maintains
+        ascending order.
+
+         */
+        /*
+        Java Map HashMap: Non-Generic(Old Style)
+         */
+        Map map = new HashMap();
+        map.put(1, "Java");
+        map.put(5, "ABC");
+        map.put(2, "Trap");
+        map.put(6, "Java");
+        Set set5 = map.entrySet();
+        Iterator iterator9 = set5.iterator();
+        while (iterator9.hasNext()) {
+            Map.Entry entry = (Map.Entry)iterator9.next();
+            System.out.println(entry.getKey() + " " + entry.getValue());
+        }
+        n11.tellName();
+        dashedLine();
+        /*
+        Java Map HashMap: Generic(New Style)
+         */
+        Map<Integer, String> map2 = new HashMap<>();
+        map2.put(100, "Abc");
+        map2.put(101, "Trap");
+        map2.put(102, "Java");
+        for (Map.Entry m:map2.entrySet()) {
+            System.out.println(m.getKey() + " " + m.getValue());
+        }
+        n11.tellName();
+        dashedLine();
+        /*
+        Java Map HashMap: comparingByKey()
+         */
+        Map<Integer, String> map3 = new HashMap<>();
+        map3.put(100, "ABC");
+        map3.put(103, "Trap");
+        map3.put(102, "Java");
+        map3.entrySet().stream().sorted(Map.
+                Entry.
+                comparingByKey()).
+                forEach(System.out::println);
+
+        n11.tellName();
+        dashedLine();
+        /*
+        Java Map HashMap: comparingByKey() in Descending Order
+         */
+        Map<Integer, String> map4 = new HashMap<>();
+        map4.put(100, "Abc");
+        map4.put(101, "Trap");
+        map4.put(102, "Java");
+        map4.entrySet().stream().sorted(Map.
+                Entry.comparingByKey(Comparator.reverseOrder())).
+                forEach(System.out::println);
+
+        n11.tellName();
+        dashedLine();
+        /*
+        Java Map HashMap: comparingByValue()
+         */
+        Map<Integer, String> map5 = new HashMap<>();
+        map5.put(100, "Abc");
+        map5.put(101, "Vyx");
+        map5.put(102, "Rtn");
+        map5.entrySet().stream().sorted(Map.Entry.comparingByValue())
+                .forEach(System.out::println);
+
+        n11.tellName();
+        dashedLine();
+        /*
+        Java Map HashMap: comparingByValue() in Descending Order
+         */
+        Map<Integer, String> map6 = new HashMap<>();
+        map6.put(100, "Abc");
+        map6.put(101, "Vxy");
+        map6.put(102, "DDD");
+        map6.entrySet().stream().sorted(Map.Entry.comparingByValue(
+                Comparator.reverseOrder()))
+        .forEach(System.out::println);
 
 
         timeStartFinish();

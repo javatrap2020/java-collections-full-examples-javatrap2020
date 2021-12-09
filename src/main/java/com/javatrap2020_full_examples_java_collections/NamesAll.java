@@ -51,6 +51,15 @@ public class NamesAll {
             case COLLECTION_DEQUE_ARRAY_DEQUE:
                 System.out.print("\n" + Color.CYAN_BACKGROUND + "Collection Deque ArrayDeque" + Color.RESET + " ");
                 break;
+            case MAP_HASH_MAP:
+                System.out.print("\n" + Color.CYAN_BACKGROUND + "Map HashMap" + Color.RESET + " ");
+                break;
+            case MAP_LINKED_HASH_MAP:
+                System.out.print("\n" + Color.CYAN_BACKGROUND + "Map LinkedHashMap" + Color.RESET + " ");
+                break;
+            case MAP_TREE_MAP:
+                System.out.print("\n" + Color.CYAN_BACKGROUND + "Map TreeMap" + Color.RESET + " ");
+                break;
             default:
                 System.out.print("\n" + Color.CYAN_BACKGROUND + "the end" + Color.RESET + " ");
                 break;
