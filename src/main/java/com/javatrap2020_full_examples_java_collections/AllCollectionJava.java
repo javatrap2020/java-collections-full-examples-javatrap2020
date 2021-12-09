@@ -13,6 +13,7 @@ import java.util.SortedSet;
 import java.util.Stack;
 import java.util.TreeSet;
 import java.util.Vector;
+import java.util.concurrent.TimeUnit;
 import java.util.logging.Logger;
 import java.util.stream.Stream;
 
@@ -35,12 +36,9 @@ public class AllCollectionJava {
     final static NamesEnum nameTen = NamesEnum.COLLECTION_LIST_VECTOR;
     final static NamesEnum nameEleven = NamesEnum.COLLECTION_LIST_VECTOR_STACK;
     final static NamesEnum nameTwelve = NamesEnum.COLLECTION_QUEUE_PRIORITY_QUEUE;
+    final static LocalTime timeStart = LocalTime.now();
 
     public static void main(String[] args) {
-
-        LocalTime time1 = LocalTime.now();
-        System.out.println("The current local time is: " + time1);
-
         NamesAll n = new NamesAll(nameOne);
         n.tellName();
         numDashedLine();
@@ -677,6 +675,17 @@ public class AllCollectionJava {
             System.out.println(iterator8.next());
         }
 
+        timeStartFinish();
+
+    }
+
+    public static void timeStartFinish() {
+        LocalTime end = LocalTime.now();
+        System.out.println("\n" + "time start is: " +  timeStart + " time finish is: " +
+                end + " " + dashed);
+        long dif = Math.abs(end.getNano() - timeStart.getNano());
+        System.out.println(Color.BLACK_BACKGROUND + "time total is nanoseconds:" +
+                Color.RESET + " " + TimeUnit.NANOSECONDS.convert(dif, TimeUnit.NANOSECONDS));
     }
 
     public static List<String> reverse(ArrayList<String> n) {
