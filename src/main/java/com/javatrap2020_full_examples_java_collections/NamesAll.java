@@ -48,6 +48,9 @@ public class NamesAll {
             case COLLECTION_QUEUE_PRIORITY_QUEUE:
                 System.out.print("\n" + Color.CYAN_BACKGROUND + "Collection Queue PriorityQueue" + Color.RESET + " ");
                 break;
+            case COLLECTION_DEQUE_ARRAY_DEQUE:
+                System.out.print("\n" + Color.CYAN_BACKGROUND + "Collection Deque ArrayDeque" + Color.RESET + " ");
+                break;
             default:
                 System.out.print("\n" + Color.CYAN_BACKGROUND + "the end" + Color.RESET + " ");
                 break;

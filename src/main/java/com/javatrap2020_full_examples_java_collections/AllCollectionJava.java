@@ -1,7 +1,9 @@
 package com.javatrap2020_full_examples_java_collections;
 
 import java.time.LocalTime;
+import java.util.ArrayDeque;
 import java.util.ArrayList;
+import java.util.Deque;
 import java.util.HashSet;
 import java.util.Iterator;
 import java.util.LinkedHashSet;
@@ -24,6 +26,7 @@ public class AllCollectionJava {
 
     final static String dashed = "----------------------";
     static int count = 0;
+    final static LocalTime timeStart = LocalTime.now();
     final static NamesEnum nameOne = NamesEnum.ITERABLE;
     final static NamesEnum nameTwo = NamesEnum.COLLECTION;
     final static NamesEnum nameThree = NamesEnum.COLLECTION_SET;
@@ -36,7 +39,7 @@ public class AllCollectionJava {
     final static NamesEnum nameTen = NamesEnum.COLLECTION_LIST_VECTOR;
     final static NamesEnum nameEleven = NamesEnum.COLLECTION_LIST_VECTOR_STACK;
     final static NamesEnum nameTwelve = NamesEnum.COLLECTION_QUEUE_PRIORITY_QUEUE;
-    final static LocalTime timeStart = LocalTime.now();
+    final static NamesEnum nameThirteen = NamesEnum.COLLECTION_DEQUE_ARRAY_DEQUE;
 
     public static void main(String[] args) {
         NamesAll n = new NamesAll(nameOne);
@@ -674,17 +677,52 @@ public class AllCollectionJava {
         while (iterator8.hasNext()) {
             System.out.println(iterator8.next());
         }
+        NamesAll n10 = new NamesAll(nameThirteen);
+        n10.tellName();
+        numDashedLine();
+
+        /*
+        Deque Interface
+        Deque interface extends the Queue interface. In Deque, we can removed
+        and add the elements from both the side. Deque stands for a
+        double-ended queue which enables us to perform the operations
+        at both the ends.
+        Deque d = new ArrayDeque();
+         */
+        /*
+        ArrayDeque
+        ArrayDeque class implements the Deque interface. It facilitates
+        us to use the Deque. Unlike queue, we can add or delete the
+        elements from both the ends.
+        ArrayDeque is faster than ArrayList and has no capacity restrictions.
+         */
+        Deque<String> deque = new ArrayDeque<>();
+        deque.add("Java");
+        deque.add("Trap");
+        deque.add("Abc");
+        for (String str : deque) {
+            System.out.println(str);
+        }
+        deque.pop();
+        deque.removeLast();
+        System.out.println("delete first and delete last:");
+        for (String str : deque) {
+            System.out.println(str);
+        }
+
+
+
+
 
         timeStartFinish();
-
     }
 
     public static void timeStartFinish() {
         LocalTime end = LocalTime.now();
-        System.out.println("\n" + "time start is: " +  timeStart + " time finish is: " +
-                end + " " + dashed);
+        System.out.println("\n" + "time start is: " +  timeStart + "\n" +
+                "time finish is: " + end + "\n" + dashed);
         long dif = Math.abs(end.getNano() - timeStart.getNano());
-        System.out.println(Color.BLACK_BACKGROUND + "time total is nanoseconds:" +
+        System.out.println(Color.MAGENTA_BACKGROUND + "time total is nanoseconds:" +
                 Color.RESET + " " + TimeUnit.NANOSECONDS.convert(dif, TimeUnit.NANOSECONDS));
     }
 
