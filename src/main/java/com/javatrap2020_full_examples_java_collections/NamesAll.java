@@ -54,8 +54,8 @@ public class NamesAll {
             case MAP_HASH_MAP:
                 System.out.print("\n" + Color.CYAN_BACKGROUND + "Map HashMap" + Color.RESET + " ");
                 break;
-            case MAP_LINKED_HASH_MAP:
-                System.out.print("\n" + Color.CYAN_BACKGROUND + "Map LinkedHashMap" + Color.RESET + " ");
+            case MAP_HASH_MAP_LINKED_HASH_MAP:
+                System.out.print("\n" + Color.CYAN_BACKGROUND + "Map HashMap LinkedHashMap" + Color.RESET + " ");
                 break;
             case MAP_TREE_MAP:
                 System.out.print("\n" + Color.CYAN_BACKGROUND + "Map TreeMap" + Color.RESET + " ");

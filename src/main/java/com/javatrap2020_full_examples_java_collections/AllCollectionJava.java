@@ -8,6 +8,7 @@ import java.util.Deque;
 import java.util.HashMap;
 import java.util.HashSet;
 import java.util.Iterator;
+import java.util.LinkedHashMap;
 import java.util.LinkedHashSet;
 import java.util.LinkedList;
 import java.util.List;
@@ -44,7 +45,7 @@ public class AllCollectionJava {
     final static NamesEnum nameTwelve = NamesEnum.COLLECTION_QUEUE_PRIORITY_QUEUE;
     final static NamesEnum nameThirteen = NamesEnum.COLLECTION_DEQUE_ARRAY_DEQUE;
     final static NamesEnum nameFourteen = NamesEnum.MAP_HASH_MAP;
-    final static NamesEnum nameFifteen = NamesEnum.MAP_LINKED_HASH_MAP;
+    final static NamesEnum nameFifteen = NamesEnum.MAP_HASH_MAP_LINKED_HASH_MAP;
     final static NamesEnum nameSixteen = NamesEnum.MAP_TREE_MAP;
 
     public static void main(String[] args) {
@@ -905,6 +906,82 @@ public class AllCollectionJava {
             System.out.println(m.getKey() + " " +  m.getValue());
         }
 
+        NamesAll n12 = new NamesAll(nameFifteen);
+        n12.tellName();
+        numDashedLine();
+        /*
+        Java LinkedHashMap class
+
+        Java LinkedHashMap class is Hashtable and Linked list implementation
+        of the Map interface, with predictable iteration order.
+        It inherits HashMap class and implements the Map interface.
+
+        Java LinkedHashMap contains values based on the key.
+        Java LinkedHashMap contains unique elements.
+        Java LinkedHashMap may have one null key and multiple null value.
+        Java LinkedHashMap is non synchronized.
+        Java LinkedHashMap maintains insertion order.
+        The initial default capacity of Java HashMap class is 16 with
+        a load factor of 0.75.
+
+        public class LinkedHashMap<K, V> extends HashMap<K, V> implements Map<K, V>
+         */
+
+        LinkedHashMap<Integer, String> linkedHashSet = new LinkedHashMap<>();
+        linkedHashSet.put(100, "Abc");
+        linkedHashSet.put(101, "VV");
+        linkedHashSet.put(102, "BB");
+        for (Map.Entry m : linkedHashSet.entrySet()) {
+            System.out.println(m.getKey() + " " + m.getValue());
+        }
+        /*
+        Java LinkedHashMap key-value pair
+         */
+        n12.tellName();
+        dashedLine();
+        LinkedHashMap<Integer,String> linkedHashMap1 = new LinkedHashMap<>();
+        linkedHashMap1.put(100, "ABC");
+        linkedHashMap1.put(101, "Vv");
+        linkedHashMap1.put(102, "Dd");
+
+        System.out.println("Keys: " + linkedHashMap1.keySet());
+        System.out.println("Values: " + linkedHashMap1.values());
+        System.out.println("Key-Value pairs: " + linkedHashMap1.entrySet());
+
+        /*
+        Java LinkedHashMap remove.
+         */
+        n12.tellName();
+        dashedLine();
+        Map<Integer, String> map12 = new LinkedHashMap<>();
+        map12.put(101, "Abc");
+        map12.put(102, "Vx");
+        map12.put(103, "F");
+        System.out.println("Before: " + map12);
+        map12.remove(102);
+        System.out.println("After: " + map12);
+
+        n12.tellName();
+        dashedLine();
+        /*
+        Java LinkedHashMap : Book
+         */
+        Map<Integer, Book> map13 = new LinkedHashMap<>();
+        Book b1 = new Book(101, "Java", "Trap","ABC", 8);
+        Book b2 = new Book(102, "Java2", "Trap2","ABC2", 4);
+        Book b3 = new Book(103, "Java3", "Trap3","ABC3", 6);
+
+        map13.put(2, b2);
+        map13.put(1, b1);
+        map13.put(3, b3);
+        System.out.println("Books:");
+        for (Map.Entry <Integer, Book> entry : map13.entrySet()) {
+            int key = entry.getKey();
+            Book b = entry.getValue();
+            System.out.println(key + "Details:");
+            System.out.println(b.id + " " + b.name + " "
+            + b.author + " " + b.publisher + " " + b.quantity);
+        }
 
 
 
