@@ -816,6 +816,97 @@ public class AllCollectionJava {
                 Comparator.reverseOrder()))
         .forEach(System.out::println);
 
+        n11.tellName();
+        dashedLine();
+        /*
+        No Duplicate Key on HashMap
+         */
+        HashMap<Integer, String> map7 = new HashMap<>();
+        map7.put(1, "Trap");
+        map7.put(2, "Java");
+        map7.put(3, "ABC");
+        map7.put(1, "Trap");
+
+        for (Map.Entry m : map7.entrySet()){
+            System.out.println(m.getKey() + " " +  m.getValue());
+        }
+
+        n11.tellName();
+        dashedLine();
+        /*
+        Java HashMap to add() elements
+         */
+        HashMap<Integer, String> map8 = new HashMap<>();
+        map8.put(100, "Abc");
+        map8.put(101, "Trap");
+        map8.put(102, "Java");
+
+        for(Map.Entry m : map8.entrySet()) {
+            System.out.println(m.getKey() + " " + m.getValue());
+        }
+
+        System.out.println("map8.PutIfAbsent()");
+        map8.putIfAbsent(103, "DDD");
+        for (Map.Entry m : map8.entrySet()) {
+            System.out.println(m.getKey() + " " + m.getValue());
+        }
+
+        System.out.println("map9.put() + putAll(map8)");
+        HashMap<Integer, String> map9 = new HashMap<>();
+        map9.put(104, "BBB");
+        map9.putAll(map8);
+        for (Map.Entry m : map9.entrySet()) {
+            System.out.println(m.getKey() + " " + m.getValue());
+        }
+
+        n11.tellName();
+        dashedLine();
+        /*
+        Java HashMap to remove() elements
+         */
+        HashMap<Integer, String> map10 = new HashMap<>();
+        map10.put(100, "Abc");
+        map10.put(101, "V");
+        map10.put(102, "B");
+        map10.put(103, "G");
+        System.out.println(map10);
+        map10.remove(100);
+        System.out.println("After remove: " + "\n" + map10);
+        map10.remove(101);
+        System.out.println(map10);
+        map10.remove(102);
+        System.out.println(map10);
+
+        n11.tellName();
+        dashedLine();
+        /*
+        Jav HashMap example to replace() elements
+         */
+        HashMap<Integer, String> map11 = new HashMap<>();
+        map11.put(100, "Abc");
+        map11.put(101, "V");
+        map11.put(102, "R");
+        for (Map.Entry m : map11.entrySet()) {
+            System.out.println(m.getKey() + " " + m.getValue());
+        }
+        System.out.println("replace() : ");
+        map11.replace(102, "TR");
+        for (Map.Entry m : map11.entrySet()) {
+            System.out.println(m.getKey() + " " + m.getValue());
+        }
+        System.out.println("replace() : ");
+        map11.replace(101, "V", "MM");
+        for (Map.Entry m : map11.entrySet()) {
+            System.out.println(m.getKey() + " " + m.getValue());
+        }
+        System.out.println("replaceAll() : ");
+        map11.replaceAll((k, v) -> "TTT");
+        for (Map.Entry m : map11.entrySet()) {
+            System.out.println(m.getKey() + " " +  m.getValue());
+        }
+
+
+
 
         timeStartFinish();
     }
