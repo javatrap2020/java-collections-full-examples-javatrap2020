@@ -1,8 +1,13 @@
 package com.javatrap2020_full_examples_java_collections;
 
+import java.io.FileInputStream;
+import java.io.FileOutputStream;
+import java.io.ObjectInputStream;
+import java.io.ObjectOutputStream;
 import java.time.LocalTime;
 import java.util.ArrayDeque;
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.Comparator;
 import java.util.Deque;
 import java.util.HashMap;
@@ -12,11 +17,15 @@ import java.util.LinkedHashMap;
 import java.util.LinkedHashSet;
 import java.util.LinkedList;
 import java.util.List;
+import java.util.ListIterator;
 import java.util.Map;
+import java.util.NavigableMap;
 import java.util.PriorityQueue;
 import java.util.Set;
+import java.util.SortedMap;
 import java.util.SortedSet;
 import java.util.Stack;
+import java.util.TreeMap;
 import java.util.TreeSet;
 import java.util.Vector;
 import java.util.concurrent.TimeUnit;
@@ -46,7 +55,7 @@ public class AllCollectionJava {
     final static NamesEnum nameThirteen = NamesEnum.COLLECTION_DEQUE_ARRAY_DEQUE;
     final static NamesEnum nameFourteen = NamesEnum.MAP_HASH_MAP;
     final static NamesEnum nameFifteen = NamesEnum.MAP_HASH_MAP_LINKED_HASH_MAP;
-    final static NamesEnum nameSixteen = NamesEnum.MAP_TREE_MAP;
+    final static NamesEnum nameSixteen = NamesEnum.MAP_SORTED_MAP_NAVIGABLE_MAP_TREE_MAP;
 
     public static void main(String[] args) {
         NamesAll n = new NamesAll(nameOne);
@@ -412,6 +421,243 @@ public class AllCollectionJava {
         while (iterator2.hasNext()) {
             System.out.println(iterator2.next());
         }
+
+        n5.tellName();
+        dashedLine();
+        /*
+        Get and Set ArrayList
+         */
+        ArrayList<String> arrayList1 = new ArrayList<>();
+        arrayList1.add("Mango");
+        arrayList1.add("Apple");
+        arrayList1.add("Banana");
+        arrayList1.add("Grapes");
+        System.out.println(arrayList1);
+        System.out.println("GEt: " + arrayList1.get(1));
+        arrayList1.set(1,"Dates");
+        for (String fruit : arrayList1) {
+            System.out.println("After SET: " + fruit);
+        }
+
+        n5.tellName();
+        dashedLine();
+        /*
+        to sort ArrayList
+         */
+        List<String> listA1 = new ArrayList<>();
+        listA1.add("Mango");
+        listA1.add("Apple");
+        listA1.add("Banana");
+        listA1.add("Grapes");
+        System.out.println("Before: " + listA1);
+        Collections.sort(listA1);
+        for (String fruit : listA1) {
+            System.out.println("After: " + fruit);
+        }
+
+        List<Integer> listA2 = new ArrayList<>();
+        listA2.add(21);
+        listA2.add(11);
+        listA2.add(51);
+        listA2.add(1);
+        System.out.println("Before: " + listA2);
+        Collections.sort(listA2);
+        for (Integer digits : listA2) {
+            System.out.println("After: " + digits);
+        }
+
+        n5.tellName();
+        dashedLine();
+        /*
+        Ways to iterate the elements of the collection in Java
+        1. By Iterator interface.
+        2. By for-each loop.
+        3. By ListIterator interface.
+        4. By for loop.
+        5. By forEach() method.
+        6. By forEachRemaining() method.
+         */
+        ArrayList<String> arrayList2 = new ArrayList<>();
+        arrayList2.add("Row");
+        arrayList2.add("V");
+        arrayList2.add("ABC");
+        arrayList2.add("F");
+        System.out.println("ListIterator: ");
+        ListIterator<String> listIterator = arrayList2.listIterator(arrayList2.size());
+        while (listIterator.hasPrevious()) {
+            String str = listIterator.previous();
+            System.out.println(str);
+        }
+
+        System.out.println("for loop: ");
+        for (int i = 0; i < arrayList2.size(); i++) {
+            System.out.println(arrayList2.get(i));
+        }
+
+        System.out.println("forEach(): ");
+        arrayList2.forEach(a -> {
+            System.out.println(a);
+        });
+
+        System.out.println("forEachRemaining(): ");
+        Iterator<String> iterator10 = arrayList2.iterator();
+        iterator10.forEachRemaining(a -> {
+            System.out.println(a);
+        });
+
+        n5.tellName();
+        dashedLine();
+        /*
+        User-defined class objects in Java ArrayList
+         */
+        Student student1 = new Student(101, "Java", 25);
+        Student student2 = new Student(102, "Trap", 20);
+        Student student3 = new Student(103, "ABC", 15);
+
+        ArrayList<Student> arrayList3 = new ArrayList<>();
+        arrayList3.add(student1);
+        arrayList3.add(student2);
+        arrayList3.add(student3);
+        System.out.println("Student class objects: ");
+        Iterator iterator11 = arrayList3.iterator();
+        while (iterator11.hasNext()) {
+            Student student = (Student)iterator11.next();
+            System.out.println(student.getNumber() + " " +
+                    student.name + " " + student.age);
+        }
+
+        n5.tellName();
+        dashedLine();
+        /*
+        Java ArrayList Serialization and Deserialization
+         */
+        ArrayList<String> arrayList4 = new ArrayList<>();
+        arrayList4.add("Java");
+        arrayList4.add("V");
+        arrayList4.add("ABC");
+
+        try {
+            System.out.println("Serialization");
+            FileOutputStream fileOutputStream = new FileOutputStream("file");
+            ObjectOutputStream objectOutputStream = new ObjectOutputStream(fileOutputStream);
+            objectOutputStream.writeObject(arrayList4);
+            fileOutputStream.close();
+            objectOutputStream.close();
+            System.out.println("Deserialization");
+            FileInputStream fileInputStream = new FileInputStream("file");
+            ObjectInputStream objectInputStream = new ObjectInputStream(fileInputStream);
+
+            ArrayList arrayList5 = (ArrayList)objectInputStream.readObject();
+            System.out.println(arrayList5);
+        } catch (Exception e) {
+            System.out.println(e);
+        }
+
+        n5.tellName();
+        dashedLine();
+        /*
+        Java ArrayList to add elements
+         */
+        ArrayList<String> arrayList5 = new ArrayList<>();
+        System.out.println("Initial list:" + arrayList5);
+        arrayList5.add("Java");
+        arrayList5.add("V");
+        arrayList5.add("Abc");
+        System.out.println("After add:" + arrayList5);
+        arrayList5.add(1, "BBB");
+        System.out.println("After to add of index 1:" + arrayList5);
+
+        ArrayList<String> arrayList6 = new ArrayList<>();
+        arrayList6.add("OOO");
+        arrayList6.add("TTT");
+        arrayList6.addAll(arrayList6);
+        System.out.println("arrayList.add + arrayList6.addAll:" + arrayList6);
+
+        ArrayList<String> arrayList7 = new ArrayList<>();
+        arrayList7.add("KKK");
+        arrayList7.add("RRR");
+        arrayList5.addAll(1, arrayList7);
+        System.out.println("arrayList5.addAll: 1, arrayList7:" + arrayList5);
+
+        n5.tellName();
+        dashedLine();
+        /*
+        Java ArrayList to remove elements
+         */
+        ArrayList<String> arrayList8 = new ArrayList<>();
+        arrayList8.add("Java");
+        arrayList8.add("Abc");
+        arrayList8.add("R");
+        arrayList8.add("D");
+        System.out.println("Before:" + arrayList8);
+        arrayList8.remove("Abc");
+        System.out.println("After remove(object):" + arrayList8);
+        arrayList8.remove(0);
+        System.out.println("After remove(index):" + arrayList8);
+
+        ArrayList<String> arrayList9 = new ArrayList<>();
+        arrayList9.add("S");
+        arrayList9.add("W");
+        arrayList8.addAll(arrayList9);
+        System.out.println("addAll arrayList9 to arrayList8:" + arrayList8);
+        arrayList8.removeAll(arrayList9);
+        System.out.println("removeAll(arrayList9):arrayList8:" + arrayList8 );
+        arrayList8.removeIf(s -> s.contains("R"));
+        System.out.println("removeIf(R):" + arrayList8);
+        arrayList8.clear();
+        System.out.println("clear:" + arrayList8);
+
+        n5.tellName();
+        dashedLine();
+        /*
+        Java ArrayList retainAll()
+         */
+        ArrayList<String> arrayList10 = new ArrayList<>();
+        arrayList10.add("Java");
+        arrayList10.add("Abc");
+        arrayList10.add("DD");
+        ArrayList<String> arrayList11 = new ArrayList<>();
+        arrayList11.add("OOO");
+        arrayList11.add("Java");
+        arrayList10.retainAll(arrayList11);
+        Iterator iterator12 = arrayList10.iterator();
+        while (iterator12.hasNext()) {
+            System.out.println("retainAll:" + iterator12.next());
+        }
+
+        n5.tellName();
+        dashedLine();
+        /*
+        Java ArrayList isEmpty
+         */
+        ArrayList<String> arrayList12 = new ArrayList<>();
+        System.out.println("Is ArrayList Empty:" + arrayList12.isEmpty());
+        arrayList12.add("Java");
+        arrayList12.add("V");
+        arrayList12.add("ABC");
+        System.out.println("add:");
+        System.out.println("Is ArrayList Empty:" + arrayList12.isEmpty());
+
+        n5.tellName();
+        dashedLine();
+        /*
+        Java ArrayList: Book
+         */
+        List<Book> arrayList13 = new ArrayList<>();
+
+        Book book1 = new Book(101, "Java", "Java", "Java", 5);
+        Book book2 = new Book(102, "Java2", "Java2", "Java2", 2);
+        Book book3 = new Book(103, "Java3", "Java3", "Java3", 17);
+
+        arrayList13.add(book1);
+        arrayList13.add(book2);
+        arrayList13.add(book3);
+
+        for (Book b : arrayList13) {
+            System.out.println("Book: " +  b.id + " " + b.name + " " + b.author + " " +
+                   " " +  b.publisher + " " + b.getQuantity());
+        }
+
 
         NamesAll n6 = new NamesAll(nameNine);
         n6.tellName();
@@ -980,7 +1226,121 @@ public class AllCollectionJava {
             Book b = entry.getValue();
             System.out.println(key + "Details:");
             System.out.println(b.id + " " + b.name + " "
-            + b.author + " " + b.publisher + " " + b.quantity);
+            + b.author + " " + b.publisher + " " + b.getQuantity());
+        }
+
+        NamesAll n13 = new NamesAll(nameSixteen);
+        n13.tellName();
+        numDashedLine();
+        /*
+        Java TreeMap class
+
+        Java TreeMap class is a red-black tree based implementation. It
+        provides an efficient means of storing key-value pairs in
+        sorted order.
+
+        The important points about Java TreeMap class are:
+
+        Java TreeMap contains values based on the key. It implements
+        the NavigableMap interface and extends AbstractMap class.
+
+        Java TreeMap contains only unique elements.
+
+        Java TreeMap cannot have a null key but can have multiple null values.
+
+        Java TreeMap is non synchronized.
+
+        Java TreeMap maintains ascending order.
+
+        //TreMap class declaration
+        public class TreeMap<K, V> extends AbstractMap<K, V> implements NavigableMap<K, V>, Cloneable, Serializable
+
+         */
+        TreeMap<Integer, String> treeMap = new TreeMap<>();
+        treeMap.put(100, "Abc");
+        treeMap.put(102, "R");
+        treeMap.put(101, "V");
+        treeMap.put(103, "Abc");
+        for (Map.Entry m : treeMap.entrySet()) {
+            System.out.println(m.getKey() + " " + m.getValue());
+        }
+
+        n13.tellName();
+        dashedLine();
+        /*
+        Java TreeMap remove():
+         */
+        TreeMap<Integer, String> treeMap1 = new TreeMap<>();
+        treeMap1.put(100, "Abc");
+        treeMap1.put(102, "Row");
+        treeMap1.put(101, "Vv");
+        System.out.println("Before:");
+        for (Map.Entry m : treeMap1.entrySet()) {
+            System.out.println(m.getKey() + " " + m.getValue());
+        }
+        treeMap1.remove(102);
+        System.out.println("After:");
+        for (Map.Entry m : treeMap1.entrySet()) {
+            System.out.println(m.getKey() + " " + m.getValue());
+        }
+
+        n13.tellName();
+        dashedLine();
+        /*
+        Java TreeMap : NavigableMap
+         */
+        NavigableMap<Integer, String> navigableMap = new TreeMap<>();
+        navigableMap.put(100, "Abc");
+        navigableMap.put(102, "R");
+        navigableMap.put(101, "W");
+        navigableMap.put(103, "AA");
+        System.out.println("NavigableMap TreeMap");
+        System.out.println("descendingMap:" + navigableMap.descendingMap());
+        System.out.println("headMap:" + navigableMap.headMap(102, true));
+        System.out.println("tailMap:" + navigableMap.tailMap(102, true));
+        System.out.println("subMap:" + navigableMap.subMap(100, false, 102, true));
+
+        n13.tellName();
+        dashedLine();
+        /*
+        Java TreeMap : SortedMap
+         */
+        SortedMap<Integer, String> sortedMap = new TreeMap<>();
+        sortedMap.put(100, "Abc");
+        sortedMap.put(102, "Ro");
+        sortedMap.put(101, "V");
+        sortedMap.put(103, "AD");
+        System.out.println("SortedMap TreeSet");
+        System.out.println("headMap:" + sortedMap.headMap(102));
+        System.out.println("tailMap:" + sortedMap.tailMap(102));
+        System.out.println("subMap:" + sortedMap.subMap(100, 102));
+        /*
+        difference between HashMap and TreeMap
+        HashMap                                    TreeMap
+        1. HashMap can contain one null key.      TreeMap cannot contain any null key.
+        2. HashMap maintains no order.            TreeMap maintains ascending order.
+         */
+
+        n13.tellName();
+        dashedLine();
+        /*
+        Java TreeMap : Book
+         */
+        Map<Integer, Book> treeMap2 = new TreeMap<>();
+        Book book4 = new Book(101, "Java","Java","Java", 8);
+        Book book5 = new Book(102, "Java2","Java2","Java2", 4);
+        Book book6 = new Book(103, "Java3","Java3","Java3", 6);
+
+        treeMap2.put(2, book5);
+        treeMap2.put(1, book4);
+        treeMap2.put(3, book6);
+
+        for (Map.Entry<Integer, Book> entry : treeMap2.entrySet()) {
+            int key = entry.getKey();
+            Book b = entry.getValue();
+            System.out.println(key + " Details:");
+            System.out.println(b.id + " " + b.author + " " + b.publisher
+            + " " + b.getQuantity());
         }
 
 

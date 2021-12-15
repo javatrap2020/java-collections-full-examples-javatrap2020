@@ -57,8 +57,8 @@ public class NamesAll {
             case MAP_HASH_MAP_LINKED_HASH_MAP:
                 System.out.print("\n" + Color.CYAN_BACKGROUND + "Map HashMap LinkedHashMap" + Color.RESET + " ");
                 break;
-            case MAP_TREE_MAP:
-                System.out.print("\n" + Color.CYAN_BACKGROUND + "Map TreeMap" + Color.RESET + " ");
+            case MAP_SORTED_MAP_NAVIGABLE_MAP_TREE_MAP:
+                System.out.print("\n" + Color.CYAN_BACKGROUND + "Map SortedMap NavigableMap TreeMap" + Color.RESET + " ");
                 break;
             default:
                 System.out.print("\n" + Color.CYAN_BACKGROUND + "the end" + Color.RESET + " ");

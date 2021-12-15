@@ -26,3 +26,11 @@ Hsrc/main/java/com/javatrap2020_full_examples_java_collections/Color.java,9\1\9
 :
 
 .gitignore,a\5\a5cc2925ca8258af241be7e5b0381edf30266302
+w
+Gsrc/main/java/com/javatrap2020_full_examples_java_collections/Book.java,9\c\9c31f59862d7f57328d919955945d71fe416f0c1
+z
+Jsrc/main/java/com/javatrap2020_full_examples_java_collections/Student.java,7\1\7189c8fd582b22c8e418272c484b77a1bc4b630d
+4
+file,9\7\971c419dd609331343dee105fffd0f4608dc0bf2
+8
+file.dat,5\a\5a6ff662d935af9dee7a5511e80a47cb0ec452f0
