@@ -56,6 +56,8 @@ public class AllCollectionJava {
     final static NamesEnum nameFourteen = NamesEnum.MAP_HASH_MAP;
     final static NamesEnum nameFifteen = NamesEnum.MAP_HASH_MAP_LINKED_HASH_MAP;
     final static NamesEnum nameSixteen = NamesEnum.MAP_SORTED_MAP_NAVIGABLE_MAP_TREE_MAP;
+    final static NamesEnum getNameSeventeen = NamesEnum.COLLECTIONS;
+    final static NamesEnum getNameEighteen = NamesEnum.ARRAYS;
 
     public static void main(String[] args) {
         NamesAll n = new NamesAll(nameOne);
@@ -1342,6 +1344,130 @@ public class AllCollectionJava {
             System.out.println(b.id + " " + b.author + " " + b.publisher
             + " " + b.getQuantity());
         }
+        NamesAll n14 = new NamesAll(getNameSeventeen);
+        n14.tellName();
+        numDashedLine();
+        /*
+        Collections Class in Java
+
+        Collections class is a member of the Java Collection Framework.
+        The java.util.Collections package is the package that contains
+        the Collections class. Collections class is basically used with
+        the static methods that operate on the collections or return
+        the collection. All the methods of this class throw the NullPointerException
+        if the collection or object passed to the methods is null.
+         */
+        /*
+        Adding elements to the Collections: addAll()
+         */
+        System.out.println("addAll()");
+        List<String> items = new ArrayList<>();
+        items.add("Java");
+        items.add("Trap");
+        Collections.addAll(items, "ABC", "W");
+        for (int i = 0; i < items.size(); i++){
+            System.out.print(items.get(i) + " ");
+        }
+
+        n14.tellName();
+        dashedLine();
+        /*
+        Sorting Collections
+         */
+        System.out.println("Sorting...");
+        List<String> items1 = new ArrayList<>();
+        items1.add("F");
+        items1.add("ABC");
+
+        Collections.addAll(items1, "F", "W", "D");
+
+        Collections.sort(items1);
+        for (int i = 0; i < items1.size(); i++) {
+            System.out.print(items1.get(i) + " ");
+        }
+        System.out.println();
+
+        Collections.sort(items1, Collections.reverseOrder());
+        for (int i = 0; i < items1.size(); i++) {
+            System.out.print(items1.get(i) + " ");
+        }
+        n14.tellName();
+        dashedLine();
+        /*
+        Searching in a Collections
+        binarySearch() method returns the position of an object in a
+        sorted list.
+         */
+        System.out.println("binarySearch()");
+        List<String> items2 = new ArrayList<>();
+        items2.add("Horse");
+        items2.add("Cat");
+        items2.add("Dog");
+        items2.add("Java");
+        items2.add("Ball");
+        items2.add("Toys");
+        Collections.sort(items2);
+        System.out.println("Horse is " + Collections.binarySearch(items2,"Horse"));
+        System.out.println("Apple is " + Collections.binarySearch(items2,"Apple"));
+
+        n14.tellName();
+        dashedLine();
+        /*
+        Copying Elements
+        copy() method is used to copy all the elements
+        from one list into another. After the operation, the index of each
+        copied element in the destination list will be identical to
+        its index in the source list. The destination list must be at least
+        as long as the source list. If it is longer, the remaining elements
+        in the destination list are unaffected.
+         */
+        System.out.println("copy()");
+        List<String> destinationList = new ArrayList<>();
+        destinationList.add("WWW");
+        destinationList.add("ABC");
+        destinationList.add("Dog");
+        destinationList.add("Apple");
+        System.out.println("destination list is");
+        for (int i = 0; i < destinationList.size(); i++) {
+            System.out.print(destinationList.get(i) + " ");
+        }
+        System.out.println();
+        List<String> sourceList = new ArrayList<>();
+        sourceList.add("Java");
+        sourceList.add("Cat");
+
+        Collections.copy(destinationList, sourceList);
+        System.out.println("After:");
+        for (int i = 0; i < destinationList.size(); i++) {
+            System.out.print(destinationList.get(i) + " ");
+        }
+
+        n14.tellName();
+        dashedLine();
+        /*
+        Disjoint Collections
+        disjoint() is used to check whether two specified collections
+        are disjoint or not. More formally, two collections are disjoint
+        if they have no are elements in common. It returns true if the
+        two collections do not have any element in common.
+         */
+        System.out.println("disjoint()");
+        List<String> listDisjoint = new ArrayList<>();
+        listDisjoint.add("SSS");
+        listDisjoint.add("ABC");
+        listDisjoint.add("Dog");
+        listDisjoint.add("Ball");
+
+        List<String> listDisjoint2 = new ArrayList<>();
+        listDisjoint2.add("FFF");
+        listDisjoint2.add("A");
+        listDisjoint2.add("Cat");
+        //listDisjoint2.add("Ball");
+
+        System.out.println(Collections.disjoint(listDisjoint,listDisjoint2));
+
+
+
 
 
 

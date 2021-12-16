@@ -60,6 +60,12 @@ public class NamesAll {
             case MAP_SORTED_MAP_NAVIGABLE_MAP_TREE_MAP:
                 System.out.print("\n" + Color.CYAN_BACKGROUND + "Map SortedMap NavigableMap TreeMap" + Color.RESET + " ");
                 break;
+            case COLLECTIONS:
+                System.out.print("\n" + Color.CYAN_BACKGROUND + "Collections" + Color.RESET + " ");
+                break;
+            case ARRAYS:
+                System.out.print("\n" + Color.CYAN_BACKGROUND + "Arrays" + Color.RESET + " ");
+                break;
             default:
                 System.out.print("\n" + Color.CYAN_BACKGROUND + "the end" + Color.RESET + " ");
                 break;
