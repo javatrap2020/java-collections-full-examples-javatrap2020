@@ -7,6 +7,7 @@ import java.io.ObjectOutputStream;
 import java.time.LocalTime;
 import java.util.ArrayDeque;
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.Collections;
 import java.util.Comparator;
 import java.util.Deque;
@@ -58,7 +59,7 @@ public class AllCollectionJava {
     final static NamesEnum nameSixteen = NamesEnum.MAP_SORTED_MAP_NAVIGABLE_MAP_TREE_MAP;
     final static NamesEnum getNameSeventeen = NamesEnum.COLLECTIONS;
     final static NamesEnum getNameEighteen = NamesEnum.ARRAYS;
-
+    
     public static void main(String[] args) {
         NamesAll n = new NamesAll(nameOne);
         n.tellName();
@@ -1466,9 +1467,152 @@ public class AllCollectionJava {
 
         System.out.println(Collections.disjoint(listDisjoint,listDisjoint2));
 
+        NamesAll n15 = new NamesAll(getNameEighteen);
+        n15.tellName();
+        numDashedLine();
+        /*
+        Arrays class in Java
+
+        The Arrays class in java.util package is a part of the
+        Java Collection Framework. This class provides static
+        methods to dynamically create and access Java arrays.
+        It consists of only static methods and the methods of
+        Object class. The methods of this class can be used
+        by the class name itself.
+
+        Fill an array with a particular value.
+        Sort an Arrays.
+        Search in an Arrays.
+        And many more.
+
+        public class Arrays extends Object
+         */
+        int intArr[] = {10, 20, 15, 22, 35};
+        System.out.println("Array as List: " + Arrays.asList(intArr));
+        for (int i = 0; i < intArr.length; i++) {
+            System.out.print(intArr[i] + " ");
+        }
+        System.out.println();
+        for (int i : intArr) {
+            System.out.print(i + " ");
+        }
 
 
+        n15.tellName();
+        dashedLine();
 
+        int intArr2[] = {10, 20, 15, 22, 35};
+        System.out.println("Sorted");
+        Arrays.sort(intArr2);
+
+        int intKey = 20;
+
+        System.out.println("After: " + intKey + " found at index = "
+        + Arrays.binarySearch(intArr2, intKey));
+
+        n15.tellName();
+        dashedLine();
+
+        int intArr3[] = {10, 20, 15, 22, 35};
+        Arrays.sort(intArr3);
+        int intKey2 = 22;
+        System.out.println("binarySearch: " + intKey2 +
+                " found at index = " + Arrays.binarySearch(intArr3, 1, 3, intKey2));
+
+        n15.tellName();
+        dashedLine();
+
+        int intArr4[] = {10, 20, 15, 22, 35};
+        int intArr5[] = {10, 15, 22};
+        //System.out.println("compare: " + Arrays.compare(intArr4, intArr5));
+        System.out.println("equals: " + Arrays.equals(intArr4, intArr5));
+        //System.out.println("compareUnsigned: " + Arrays.compareUnsigned(intArr4, intArr5));
+
+        n15.tellName();
+        dashedLine();
+
+        int intArr6[] = {10, 20, 15, 22, 35};
+        for (int i : intArr6) {
+            System.out.print(i + " ");
+        }
+        System.out.println();
+        System.out.println("copyOf:");
+        System.out.print(Arrays.toString(Arrays.copyOf(intArr6, 10)));
+
+        n15.tellName();
+        dashedLine();
+
+        int intArr7[] = {10, 20, 15, 22, 35};
+        System.out.println("before copyOfRange: " + Arrays.toString(intArr7));
+        System.out.println("after copyOfRange: " +
+                Arrays.toString(Arrays.copyOfRange(intArr7, 1, 3)));
+
+        n15.tellName();
+        dashedLine();
+
+        int intArr8[][] = {{10, 20, 15, 22, 35}};
+        int intArr9[][] = {{10, 15, 22}};
+        System.out.println("deepEquals: " + Arrays.deepEquals(intArr8, intArr9));
+
+        n15.tellName();
+        dashedLine();
+
+        int intArr10[][] = {{10, 20, 15, 22, 35}};
+        System.out.println("deepHashCode: " + Arrays.deepHashCode(intArr10));
+
+        n15.tellName();
+        dashedLine();
+
+        int intArr11[][] = {{10, 20, 15, 22, 35}};
+        System.out.println("deepToString: " + Arrays.deepToString(intArr11));
+
+
+        int intArr12[] = {10, 20, 15, 22, 35};
+        System.out.println("stream: " + Arrays.stream(intArr12));
+        System.out.println("spliterator: " + Arrays.spliterator(intArr12, 1, 3));
+        System.out.println("hashCode: " + Arrays.hashCode(intArr12));
+
+        n15.tellName();
+        dashedLine();
+
+        int intArr13[] = {10, 20, 15, 22, 35};
+        Arrays.parallelSort(intArr13);
+        System.out.println("parallelSort: ");
+        for (int s : intArr13) {
+            System.out.print(s + " ");
+        }
+
+        n15.tellName();
+        dashedLine();
+
+        int intArr14[] = {10, 20, 15, 22, 35};
+        int intKey3 = 22;
+        Arrays.fill(intArr14, intKey3);
+        System.out.println("fill: " + Arrays.toString(intArr14));
+
+//        n15.tellName();
+//        dashedLine();
+//
+//        int intArr15[] = {10, 20, 15, 22, 35};
+//        int intArr16[] = {10, 15, 22};
+//        System.out.println("mismatch: " + Arrays.mismatch(intArr15, intArr16));
+
+        n15.tellName();
+        dashedLine();
+
+        Dog[] arr = { new Dog(1, "Donny", "She"),
+                      new Dog(3, "Pon", "He"),
+                      new Dog(2, "Ron", "He"),
+        };
+        System.out.println("Unsorted: ");
+        for (int i = 0; i < arr.length; i++) {
+            System.out.println(arr[i]);
+        }
+        Arrays.sort(arr, new Dog.SortAge());
+        System.out.println("\n Sorted by age");
+        for (int i = 0; i < arr.length; i++) {
+            System.out.println(arr[i]);
+        }
 
 
         timeStartFinish();
@@ -1494,7 +1638,6 @@ public class AllCollectionJava {
         }
         return n;
     }
-
 
     public static void numDashedLine() {
         count++;
