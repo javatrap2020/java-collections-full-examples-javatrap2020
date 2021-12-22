@@ -66,6 +66,12 @@ public class NamesAll {
             case ARRAYS:
                 System.out.print("\n" + Color.CYAN_BACKGROUND + "Arrays" + Color.RESET + " ");
                 break;
+            case COMPARABLE:
+                System.out.print("\n" + Color.CYAN_BACKGROUND + "Comparable" + Color.RESET + " ");
+                break;
+            case COMPARATOR:
+                System.out.print("\n" + Color.CYAN_BACKGROUND + "Comparator" + Color.RESET + " ");
+                break;
             default:
                 System.out.print("\n" + Color.CYAN_BACKGROUND + "the end" + Color.RESET + " ");
                 break;

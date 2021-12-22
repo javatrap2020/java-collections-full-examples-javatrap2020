@@ -59,7 +59,9 @@ public class AllCollectionJava {
     final static NamesEnum nameSixteen = NamesEnum.MAP_SORTED_MAP_NAVIGABLE_MAP_TREE_MAP;
     final static NamesEnum getNameSeventeen = NamesEnum.COLLECTIONS;
     final static NamesEnum getNameEighteen = NamesEnum.ARRAYS;
-    
+    final static NamesEnum getNameNineteen = NamesEnum.COMPARABLE;
+    final static NamesEnum getNameTwenty = NamesEnum.COMPARATOR;
+
     public static void main(String[] args) {
         NamesAll n = new NamesAll(nameOne);
         n.tellName();
@@ -1613,6 +1615,58 @@ public class AllCollectionJava {
         for (int i = 0; i < arr.length; i++) {
             System.out.println(arr[i]);
         }
+
+        NamesAll n16 = new NamesAll(getNameNineteen);
+        n16.tellName();
+        numDashedLine();
+        /*
+        Java Comparable interface
+
+        Java Comparable interface is used to order the objects
+        of the user-defined class. This interface is found in java.lang
+        package and contains only one method named compareTo(Object).
+        It provides a single sorting sequence only, i.e., you can sort
+        the elements on the basis of single data member only.
+
+        compareTo(Object obj) method
+
+        public int compareTo(Object obj): It is used to compare the
+        current object with the specified object. It returns
+        * positive integer, if the current object is greater than
+        the specified object.
+        * negative integer, if the current object is less than
+        the specified object
+        * zero, if the current object is equal to the specified object.
+
+        We can sort the elements of:
+        1. String objects
+        2. Wrapper class objects
+        3. User-defined class objects
+
+         */
+        ArrayList<Cat> cats = new ArrayList<>();
+        cats.add(new Cat(1, "Tom"));
+        cats.add(new Cat(3, "Milo"));
+        cats.add(new Cat(2, "Mix"));
+
+        Collections.sort(cats);
+        for (Cat c : cats) {
+            System.out.println(c.age + " " + c.getName());
+        }
+
+        n16.tellName();
+        dashedLine();
+
+        ArrayList<Rat> rats = new ArrayList<>();
+        rats.add(new Rat(101, "Rok"));
+        rats.add(new Rat(103, "Rik"));
+        rats.add(new Rat(102, "Ro"));
+
+        Collections.sort(rats);
+        for (Rat r : rats) {
+            System.out.println(r.getAge() + " " + r.getName());
+        }
+
 
 
         timeStartFinish();
