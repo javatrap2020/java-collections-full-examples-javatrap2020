@@ -1667,7 +1667,119 @@ public class AllCollectionJava {
             System.out.println(r.getAge() + " " + r.getName());
         }
 
+        NamesAll n17 = new NamesAll(getNameTwenty);
+        n17.tellName();
+        numDashedLine();
+        /*
+        Java Comparator interface
 
+        Java Comparator interface is used to order the object
+        of a user-defined class.
+        This interface is found in java.util package and contains
+        2 methods compare(Object obj1, Object obj2)
+        and equals(Object element).
+        It provides multiple sorting sequences, i.e., you can
+        sort the elements on the basis of any data member.
+
+         */
+        /*
+        Java Comparator example(Non-generic Old Style)
+         */
+        ArrayList arrayList14 = new ArrayList();
+        arrayList14.add(new Bird(101, "Eagle"));
+        arrayList14.add(new Bird(106, "Pigeon"));
+        arrayList14.add(new Bird(103, "Raven"));
+
+        System.out.println("Sorting by Name");
+        Collections.sort(arrayList14, new NameComparator());
+        Iterator iterator13 = arrayList14.iterator();
+        while (iterator13.hasNext()) {
+            Bird bird = (Bird) iterator13.next();
+            System.out.println(bird.getAge() + " " + bird.getName());
+        }
+
+        System.out.println("Sorting by Age");
+        Collections.sort(arrayList14, new AgeComparator());
+        Iterator iterator14 = arrayList14.iterator();
+        while (iterator14.hasNext()) {
+            Bird bird1 = (Bird) iterator14.next();
+            System.out.println(bird1.getAge() + " " + bird1.getName());
+        }
+
+        n17.tellName();
+        dashedLine();
+        /*
+        Java Comparator example (Generic)
+         */
+        ArrayList<Bird> arrayList15 = new ArrayList<>();
+        arrayList15.add(new Bird(101, "Eagle"));
+        arrayList15.add(new Bird(106, "Pigeon"));
+        arrayList15.add(new Bird(103, "Raven"));
+
+        System.out.println("Sorting by Name");
+        Collections.sort(arrayList15, new NameComparatorGeneric());
+        for (Bird bird : arrayList15) {
+            System.out.println(bird.getAge() + " " + bird.getName());
+        }
+
+        System.out.println("Sorting by Age");
+        Collections.sort(arrayList15, new AgeComparator());
+        for (Bird bird : arrayList15) {
+            System.out.println(bird.getAge() + " " + bird.getName());
+        }
+
+        n17.tellName();
+        dashedLine();
+        /*
+        Java 8 Comparator interface
+        Java 8 Comparator interface is a functional interface that
+        contains only one abstract method. Now, we can use the
+        Comparator interface as the assignment target for a lambda
+        expression or method reference.
+         */
+        ArrayList<Cow> arrayList16 = new ArrayList<>();
+        arrayList16.add(new Cow(101, "Molly"));
+        arrayList16.add(new Cow(107, "Ella"));
+        arrayList16.add(new Cow(104, "Bella"));
+
+        Comparator<Cow> cow = Comparator.comparing(Cow::getName);
+        Collections.sort(arrayList16, cow);
+        System.out.println("Sorting by Name");
+        for (Cow c : arrayList16) {
+            System.out.println(c.getAge() + " " + c.getName());
+        }
+
+        Comparator<Cow> cow1 = Comparator.comparing(Cow::getAge);
+        Collections.sort(arrayList16, cow1);
+        System.out.println("Sorting by Age");
+        for (Cow c : arrayList16) {
+            System.out.println(c.getAge() + " " + c.getName());
+        }
+
+        n17.tellName();
+        dashedLine();
+        /*
+        Java 8 Comparator : nullsFirst() and nullsLast() methods
+
+        Example - sort the list of elements that also contains null.
+         */
+        ArrayList<Cow> arrayList17 = new ArrayList<>();
+        arrayList17.add(new Cow(101, "Bella"));
+        arrayList17.add(new Cow(108, "Ella"));
+        arrayList17.add(new Cow(103, null));
+        Comparator<Cow> cow3 = Comparator.comparing(Cow::getName, Comparator.nullsFirst(String::compareTo));
+        Collections.sort(arrayList17, cow3);
+        System.out.println("Considers null to be less than non-null");
+        for (Cow c : arrayList17) {
+            System.out.println(c.getAge() + " " + c.getName());
+        }
+
+        Comparator<Cow> cow4 = Comparator.comparing(Cow::getName, Comparator.nullsLast(String::compareTo));
+        Collections.sort(arrayList17,cow4);
+        System.out.println("Considers null to be greater than non-null");
+        for (Cow c : arrayList17) {
+            System.out.println(c.getAge() + " " + c.getName());
+        }
 
         timeStartFinish();
     }

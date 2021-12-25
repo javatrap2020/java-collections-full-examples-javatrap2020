@@ -20,6 +20,7 @@ Java collections full examples | javatrap2020
     14. Collections.
     15. Arrays. 
     16. Comparable.
+    17. Comparator.
     ...
    
 

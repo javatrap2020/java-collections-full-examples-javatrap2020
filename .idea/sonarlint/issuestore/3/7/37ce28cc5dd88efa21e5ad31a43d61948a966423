@@ -1,416 +1,422 @@
 
-a
-java:S11249"EReorder the modifiers to comply with the Java Language Specification.(ªÛï58¤Û¨¿Ü/
-b
-java:S1124:"EReorder the modifiers to comply with the Java Language Specification.(¥È·8¤Û¨¿Ü/
-V	java:S106¦
-"9Replace this use of System.out or System.err by a logger.(‚•¹¦8¤Û¨¿Ü/
-[	java:S106„"9Replace this use of System.out or System.err by a logger.(½ıêÿÿÿÿÿ8¯ÄÏÄÜ/
-V	java:S106”"9Replace this use of System.out or System.err by a logger.(ªïõù8¯ÄÏÄÜ/
-V	java:S106ñ"9Replace this use of System.out or System.err by a logger.(†Ùô½8¤Û¨¿Ü/
-U	java:S106À"9Replace this use of System.out or System.err by a logger.(ƒÚáB8¯ÄÏÄÜ/
 M
-java:S3740ê"/Provide the parametrized type for this generic.(¿ĞÚ…8¯ÄÏÄÜ/
-M
-java:S3740§"/Provide the parametrized type for this generic.(Ù€ª8¯ÄÏÄÜ/
-g
-java:S4143¶"DVerify this is the key that was intended; it was already set before.(®êŒõşÿÿÿÿ8¯ÄÏÄÜ/
-[	java:S106˜"9Replace this use of System.out or System.err by a logger.(ÍÛ›Òüÿÿÿÿ8¤Û¨¿Ü/
-[	java:S106£"9Replace this use of System.out or System.err by a logger.(¥®ÎÌùÿÿÿÿ8¯ÄÏÄÜ/
-d
-java:S1192³"FDefine a constant instead of duplicating this literal "Apple" 4 times.(ïÃ£ğ8¯ÄÏÄÜ/
-V	java:S106Ê"9Replace this use of System.out or System.err by a logger.(ÿÿ×È8¯ÄÏÄÜ/
-[	java:S106˜
-"9Replace this use of System.out or System.err by a logger.(æï¸Ÿøÿÿÿÿ8¯ÄÏÄÜ/
-^	java:S125×"<This block of commented-out lines of code should be removed.(úÜô şÿÿÿÿ8¯ÄÏÄÜ/
-M
-java:S3740¸"/Provide the parametrized type for this generic.(òÇ°ì8¯ÄÏÄÜ/
-V	java:S106Ê"9Replace this use of System.out or System.err by a logger.(ÃÒ×à8¯ÄÏÄÜ/
-[	java:S106¢"9Replace this use of System.out or System.err by a logger.(ÍÛ›Òüÿÿÿÿ8¯ÄÏÄÜ/
-M
-java:S3740"/Provide the parametrized type for this generic.(Ğ”Î§8¯ÄÏÄÜ/
-V	java:S106"9Replace this use of System.out or System.err by a logger.(ç’¤™8¯ÄÏÄÜ/
-J
-java:S1602û",Remove useless curly braces around statement(°Í˜—8¯ÄÏÄÜ/
-V	java:S106ª"9Replace this use of System.out or System.err by a logger.(·ĞÚ 8¯ÄÏÄÜ/
-Y	java:S125‹"<This block of commented-out lines of code should be removed.(Ô„œ8¯ÄÏÄÜ/
-[	java:S106œ"9Replace this use of System.out or System.err by a logger.(ÍÛ›Òüÿÿÿÿ8¯ÄÏÄÜ/
-[	java:S106í
-"9Replace this use of System.out or System.err by a logger.(ªÓ¼áşÿÿÿÿ8¯ÄÏÄÜ/
-o
-java:S1192ğ"LDefine a constant instead of duplicating this literal "Is empty ? " 4 times.(¨ˆŸîùÿÿÿÿ8¯ÄÏÄÜ/
-V	java:S106¥"9Replace this use of System.out or System.err by a logger.(ø©®æ8ä§·ÅÜ/
-U	java:S106É"9Replace this use of System.out or System.err by a logger.(ÇÑ×8ÉÒØÅÜ/
-V	java:S106‚"9Replace this use of System.out or System.err by a logger.(Ü®¢°8¯ÄÏÄÜ/
-[	java:S106¥"9Replace this use of System.out or System.err by a logger.(¶æŸˆûÿÿÿÿ8¯ÄÏÄÜ/
-[	java:S106î"9Replace this use of System.out or System.err by a logger.(íú™€ıÿÿÿÿ8¤Û¨¿Ü/
-V
-java:S1197ö"8Move the array designator from the variable to the type.(³‰ª½8¯ÄÏÄÜ/
-[	java:S106›"9Replace this use of System.out or System.err by a logger.(ªÓ¼áşÿÿÿÿ8¯ÄÏÄÜ/
-[	java:S106×"9Replace this use of System.out or System.err by a logger.(ªÓ¼áşÿÿÿÿ8¯ÄÏÄÜ/
-[	java:S106…"9Replace this use of System.out or System.err by a logger.(ßÖÈØşÿÿÿÿ8¯ÄÏÄÜ/
-U	java:S106ì"9Replace this use of System.out or System.err by a logger.(ƒÚáB8¯ÄÏÄÜ/
-V	java:S106ï"9Replace this use of System.out or System.err by a logger.(†Ùô½8¤Û¨¿Ü/
-[	java:S106’"9Replace this use of System.out or System.err by a logger.(ùğ²şÿÿÿÿ8¤Û¨¿Ü/
-[	java:S106ë
-"9Replace this use of System.out or System.err by a logger.(¼Íäıÿÿÿÿ8¯ÄÏÄÜ/
-[	java:S106¤"9Replace this use of System.out or System.err by a logger.(ñÔ¨Êüÿÿÿÿ8¯ÄÏÄÜ/
-\
-java:S1155ó">Use isEmpty() to check whether the collection is empty or not.(ÚÎ’š8¯ÄÏÄÜ/
-c
-java:S1192O"FDefine a constant instead of duplicating this literal "three" 3 times.(ŞóÚ8¯ÄÏÄÜ/
-V	java:S106Ú"9Replace this use of System.out or System.err by a logger.(–…˜Ğ8–€‚ÆÜ/
-V	java:S106Ğ"9Replace this use of System.out or System.err by a logger.(ˆ‹çı8¯ÄÏÄÜ/
-V	java:S106©"9Replace this use of System.out or System.err by a logger.(˜Œ¦Å8¯ÄÏÄÜ/
-[	java:S106è"9Replace this use of System.out or System.err by a logger.(ÀÏ“Öùÿÿÿÿ8¯ÄÏÄÜ/
-m
-java:S2095§"OUse try-with-resources or close this "ObjectInputStream" in a "finally" clause.(´¢ß8¯ÄÏÄÜ/
-[	java:S106ş"9Replace this use of System.out or System.err by a logger.(Õ§ÛŸûÿÿÿÿ8¯ÄÏÄÜ/
-g
-java:S1124<"EReorder the modifiers to comply with the Java Language Specification.(›‘¯±ÿÿÿÿÿ8¤Û¨¿Ü/
-V	java:S106µ"9Replace this use of System.out or System.err by a logger.(´·¶î8¯ÄÏÄÜ/
-M
-java:S3740
+java:S3740ˆ
 "/Provide the parametrized type for this generic.(¸ßÿµ8¯ÄÏÄÜ/
-Y	java:S125Ÿ"<This block of commented-out lines of code should be removed.(úìÑ¿8¯ÄÏÄÜ/
-^	java:S125²"<This block of commented-out lines of code should be removed.(ş¯¥ıÿÿÿÿ8¯ÄÏÄÜ/
-V	java:S106ô"9Replace this use of System.out or System.err by a logger.(ßÈœŒ8¯ÄÏÄÜ/
-i
-java:S1192Œ"FDefine a constant instead of duplicating this literal "Java2" 7 times.(Ñ÷¸âüÿÿÿÿ8¤Û¨¿Ü/
-V	java:S106¹"9Replace this use of System.out or System.err by a logger.(«á·Í8¯ÄÏÄÜ/
-V	java:S106Ì"9Replace this use of System.out or System.err by a logger.(„¡Á¥8–€‚ÆÜ/
-o
-java:S3776?"RRefactor this method to reduce its Cognitive Complexity from 57 to the 15 allowed.(Çµí‘8¯ÄÏÄÜ/
-b
-java:S1124+"EReorder the modifiers to comply with the Java Language Specification.(•³Ê8¤Û¨¿Ü/
-V	java:S106á"9Replace this use of System.out or System.err by a logger.(æ ë8¯ÄÏÄÜ/
-V	java:S106ù"9Replace this use of System.out or System.err by a logger.(†Ùô½8¯ÄÏÄÜ/
-[	java:S106â"9Replace this use of System.out or System.err by a logger.(ÀÏ“Öùÿÿÿÿ8¯ÄÏÄÜ/
-R
-java:S3740ç"/Provide the parametrized type for this generic.(Í•¢Êşÿÿÿÿ8¤Û¨¿Ü/
-[	java:S106Ò"9Replace this use of System.out or System.err by a logger.(ï¾óÌøÿÿÿÿ8¯ÄÏÄÜ/
-Y	java:S125÷"<This block of commented-out lines of code should be removed.(•¦ã¬8¯ÄÏÄÜ/
-[	java:S106§
-"9Replace this use of System.out or System.err by a logger.(Öì¤õúÿÿÿÿ8¯ÄÏÄÜ/
-i
-java:S1192î"FDefine a constant instead of duplicating this literal "Size " 6 times.(íú™€ıÿÿÿÿ8¯ÄÏÄÜ/
-[	java:S106ò"9Replace this use of System.out or System.err by a logger.(¨ˆŸîùÿÿÿÿ8¤Û¨¿Ü/
-[	java:S106Á"9Replace this use of System.out or System.err by a logger.(¶Â›ıÿÿÿÿ8¯ÄÏÄÜ/
-[
-java:S1197ì"8Move the array designator from the variable to the type.(«¤ˆÆıÿÿÿÿ8¯ÄÏÄÜ/
-M
-java:S3740Ô"/Provide the parametrized type for this generic.(´‡8¯ÄÏÄÜ/
-[	java:S106›"9Replace this use of System.out or System.err by a logger.(¿­ûøÿÿÿÿ8¤Û¨¿Ü/
-V	java:S106Ù"9Replace this use of System.out or System.err by a logger.(Ù©È±8¯ÄÏÄÜ/
-O
-java:S1602õ",Remove useless curly braces around statement(¦¿½ÿùÿÿÿÿ8¯ÄÏÄÜ/
-R
-java:S3740ı"/Provide the parametrized type for this generic.(Óš‘ûÿÿÿÿ8¯ÄÏÄÜ/
-[	java:S106€"9Replace this use of System.out or System.err by a logger.(üÖâ­øÿÿÿÿ8¯ÄÏÄÜ/
-b
-java:S11247"EReorder the modifiers to comply with the Java Language Specification.(ïì¹±8¤Û¨¿Ü/
-[	java:S106ë"9Replace this use of System.out or System.err by a logger.(ö°Ã§ÿÿÿÿÿ8¯ÄÏÄÜ/
-V
-java:S1197õ"8Move the array designator from the variable to the type.(ˆĞ®Ñ8¤Û¨¿Ü/
-[	java:S106"9Replace this use of System.out or System.err by a logger.(¹¦…‡úÿÿÿÿ8¯ÄÏÄÜ/
-V	java:S106”"9Replace this use of System.out or System.err by a logger.( Ãù8¯ÄÏÄÜ/
-[	java:S106¹"9Replace this use of System.out or System.err by a logger.(™°äıÿÿÿÿ8¯ÄÏÄÜ/
-[	java:S106¼"9Replace this use of System.out or System.err by a logger.(Ì™Æíÿÿÿÿÿ8¯ÄÏÄÜ/
-V	java:S106ğ"9Replace this use of System.out or System.err by a logger.(øï¢‹8–€‚ÆÜ/
-[	java:S106¬	"9Replace this use of System.out or System.err by a logger.(·Â–¿ÿÿÿÿÿ8¤Û¨¿Ü/
-[	java:S106Š"9Replace this use of System.out or System.err by a logger.(òËùúûÿÿÿÿ8·ˆƒÂÜ/
-[	java:S106â
-"9Replace this use of System.out or System.err by a logger.(ìƒŞ•ùÿÿÿÿ8¯ÄÏÄÜ/
-V	java:S106¡"9Replace this use of System.out or System.err by a logger.(©ä¯ë8¤Û¨¿Ü/
-[	java:S106û"9Replace this use of System.out or System.err by a logger.(ç§¢Üûÿÿÿÿ8¯ÄÏÄÜ/
-V	java:S106–
-"9Replace this use of System.out or System.err by a logger.(¾‡øç8¤Û¨¿Ü/
-[	java:S106‹"9Replace this use of System.out or System.err by a logger.(—«±“şÿÿÿÿ8¯ÄÏÄÜ/
-V	java:S106—"9Replace this use of System.out or System.err by a logger.(©ä¯ë8¤Û¨¿Ü/
-ˆ
-java:S1149º"eReplace the synchronized class "Vector" by an unsynchronized one such as "ArrayList" or "LinkedList".(–œ¢Öıÿÿÿÿ8¯ÄÏÄÜ/
-n
-java:S1149Ã"PReplace the synchronized class "Stack" by an unsynchronized one such as "Deque".(ªÃò¡8¯ÄÏÄÜ/
-[	java:S106ö"9Replace this use of System.out or System.err by a logger.(æ¨¤šøÿÿÿÿ8¯ÄÏÄÜ/
-R
-java:S3740ø"/Provide the parametrized type for this generic.(Óš‘ûÿÿÿÿ8¯ÄÏÄÜ/
-V	java:S106ı"9Replace this use of System.out or System.err by a logger.(†Ùô½8¯ÄÏÄÜ/
-[	java:S106™"9Replace this use of System.out or System.err by a logger.(‘óÈÈüÿÿÿÿ8¤Û¨¿Ü/
-[	java:S106×"9Replace this use of System.out or System.err by a logger.(•®°ßùÿÿÿÿ8¯ÄÏÄÜ/
-[	java:S106„"9Replace this use of System.out or System.err by a logger.(Ä¶Ü¼øÿÿÿÿ8¯ÄÏÄÜ/
-[	java:S106­	"9Replace this use of System.out or System.err by a logger.(µ†ìêşÿÿÿÿ8¤Û¨¿Ü/
-U	java:S106Î	"9Replace this use of System.out or System.err by a logger.(Š†ì8¤Û¨¿Ü/
-J
-java:S1612û",Replace this lambda with a method reference.(°Í˜—8¯ÄÏÄÜ/
-
-java:S1319Ş"lThe type of the "n" object should be an interface such as "List" rather than the implementation "ArrayList".(òüËúÿÿÿÿ8–€‚ÆÜ/
-M
-java:S3740†
-"/Provide the parametrized type for this generic.(¸ßÿµ8¯ÄÏÄÜ/
-V	java:S106è"9Replace this use of System.out or System.err by a logger.(¤ÄÎ¤8¯ÄÏÄÜ/
-R
-java:S3740Ì"/Provide the parametrized type for this generic.(¿¨±ûúÿÿÿÿ8¯ÄÏÄÜ/
-V	java:S106¥"9Replace this use of System.out or System.err by a logger.(©ä¯ë8¤Û¨¿Ü/
-J
-java:S1602Ù",Remove useless curly braces around statement(ÀŒ•„8¯ÄÏÄÜ/
-V	java:S106¡"9Replace this use of System.out or System.err by a logger.(™Ã™·8¯ÄÏÄÜ/
-Z	java:S106R"9Replace this use of System.out or System.err by a logger.(¬ĞË‹ùÿÿÿÿ8¯ÄÏÄÜ/
-[	java:S106ã"9Replace this use of System.out or System.err by a logger.(Èä‡»ûÿÿÿÿ8¯ÄÏÄÜ/
-[	java:S106—
-"9Replace this use of System.out or System.err by a logger.(éöıùÿÿÿÿ8¤Û¨¿Ü/
-U	java:S106ú
-"9Replace this use of System.out or System.err by a logger.(ÛÛt8¯ÄÏÄÜ/
-Y	java:S125ù"<This block of commented-out lines of code should be removed.(Œ¼Á˜8¯ÄÏÄÜ/
-[	java:S106µ"9Replace this use of System.out or System.err by a logger.(ˆ¢Ûßüÿÿÿÿ8¯ÄÏÄÜ/
-s
-java:S1149Ğ"PReplace the synchronized class "Stack" by an unsynchronized one such as "Deque".(ƒÿƒ—ùÿÿÿÿ8¯ÄÏÄÜ/
-[	java:S106™"9Replace this use of System.out or System.err by a logger.(­àÊŠøÿÿÿÿ8¯ÄÏÄÜ/
-[	java:S106ø"9Replace this use of System.out or System.err by a logger.(íú™€ıÿÿÿÿ8¤Û¨¿Ü/
-[	java:S106ö"9Replace this use of System.out or System.err by a logger.(ç§¢Üûÿÿÿÿ8¯ÄÏÄÜ/
-V	java:S106”
-"9Replace this use of System.out or System.err by a logger.(ß¯ªµ8¤Û¨¿Ü/
-V	java:S106ß"9Replace this use of System.out or System.err by a logger.(œ„ÚÁ8¯ÄÏÄÜ/
-[	java:S106ï"9Replace this use of System.out or System.err by a logger.(œ£Óùÿÿÿÿ8¯ÄÏÄÜ/
-[	java:S106Ú"9Replace this use of System.out or System.err by a logger.(¬ĞË‹ùÿÿÿÿ8¯ÄÏÄÜ/
-V	java:S106£"9Replace this use of System.out or System.err by a logger.(ÌÎ•™8¯ÄÏÄÜ/
-[	java:S106¤
-"9Replace this use of System.out or System.err by a logger.(íÛ™Õûÿÿÿÿ8¤Û¨¿Ü/
-[	java:S106Ó"9Replace this use of System.out or System.err by a logger.(ŸÏæ´üÿÿÿÿ8¯ÄÏÄÜ/
-V	java:S106Á
-"9Replace this use of System.out or System.err by a logger.(Èá‘ß8¯ÄÏÄÜ/
-g
-java:S1124)"EReorder the modifiers to comply with the Java Language Specification.(¥çµçûÿÿÿÿ8¤Û¨¿Ü/
-V	java:S106ë"9Replace this use of System.out or System.err by a logger.(¬Š÷8¯ÄÏÄÜ/
-[	java:S106”"9Replace this use of System.out or System.err by a logger.(Ê½§›ûÿÿÿÿ8¯ÄÏÄÜ/
-V	java:S106Õ"9Replace this use of System.out or System.err by a logger.(…ƒ¤‡8¯ÄÏÄÜ/
-[	java:S106Ê	"9Replace this use of System.out or System.err by a logger.(»Ì·óüÿÿÿÿ8¯ÄÏÄÜ/
-[	java:S106Õ"9Replace this use of System.out or System.err by a logger.(°şÙãüÿÿÿÿ8¯ÄÏÄÜ/
-V	java:S106÷"9Replace this use of System.out or System.err by a logger.(«á·Í8¯ÄÏÄÜ/
-V	java:S106¹	"9Replace this use of System.out or System.err by a logger.(šÊ‚™8¯ÄÏÄÜ/
-V	java:S106…
-"9Replace this use of System.out or System.err by a logger.(™Ã™·8¯ÄÏÄÜ/
-a
-java:S11243"EReorder the modifiers to comply with the Java Language Specification.(¤¯+8¤Û¨¿Ü/
-R
-java:S3740Æ"/Provide the parametrized type for this generic.(Ÿ–›ôşÿÿÿÿ8¯ÄÏÄÜ/
-V	java:S106 	"9Replace this use of System.out or System.err by a logger.(«á·Í8¯ÄÏÄÜ/
-R
-java:S3740ò"/Provide the parametrized type for this generic.(Áòæşÿÿÿÿ8¯ÄÏÄÜ/
-V	java:S106“"9Replace this use of System.out or System.err by a logger.(‚ßÅÚ8¯ÄÏÄÜ/
-V	java:S106Ê"9Replace this use of System.out or System.err by a logger.(…¥ Æ8¯ÄÏÄÜ/
-V	java:S106×"9Replace this use of System.out or System.err by a logger.(¹®‰8–€‚ÆÜ/
-[	java:S106İ"9Replace this use of System.out or System.err by a logger.(îœŸæşÿÿÿÿ8¯ÄÏÄÜ/
-V	java:S106ä"9Replace this use of System.out or System.err by a logger.(ñÙÿÏ8¯ÄÏÄÜ/
-g
-java:S11240"EReorder the modifiers to comply with the Java Language Specification.(¥û»Àüÿÿÿÿ8¤Û¨¿Ü/
-[	java:S106Ã"9Replace this use of System.out or System.err by a logger.(Áúêèúÿÿÿÿ8¯ÄÏÄÜ/
-U	java:S106ø"9Replace this use of System.out or System.err by a logger.(êùá88¯ÄÏÄÜ/
-[	java:S106Ÿ"9Replace this use of System.out or System.err by a logger.(‡ûõıÿÿÿÿ8¯ÄÏÄÜ/
-V	java:S106‡
-"9Replace this use of System.out or System.err by a logger.(«á·Í8¯ÄÏÄÜ/
-b
-java:S1124'"EReorder the modifiers to comply with the Java Language Specification.(ü·çç8¤Û¨¿Ü/
-S
-java:S1611Ù"5Remove the parentheses around the "element" parameter(ÀŒ•„8¯ÄÏÄÜ/
-[	java:S106¦"9Replace this use of System.out or System.err by a logger.(ïğ´«ıÿÿÿÿ8¯ÄÏÄÜ/
-R
-java:S3740è"/Provide the parametrized type for this generic.(ÅÔ•·ùÿÿÿÿ8¯ÄÏÄÜ/
-V	java:S106Õ"9Replace this use of System.out or System.err by a logger.(«á·Í8¯ÄÏÄÜ/
-V	java:S106ƒ"9Replace this use of System.out or System.err by a logger.(Ì²çò8·ˆƒÂÜ/
-[	java:S106"9Replace this use of System.out or System.err by a logger.(‰ùıúşÿÿÿÿ8¤Û¨¿Ü/
-V	java:S106¯"9Replace this use of System.out or System.err by a logger.(Ö„òÆ8¯ÄÏÄÜ/
-V	java:S106®	"9Replace this use of System.out or System.err by a logger.(Ò£ÚÅ8¯ÄÏÄÜ/
-V	java:S106™"9Replace this use of System.out or System.err by a logger.(ÌÎ•™8¯ÄÏÄÜ/
-g
-java:S11245"EReorder the modifiers to comply with the Java Language Specification.(†„áıÿÿÿÿ8¤Û¨¿Ü/
-R
-java:S3740ó"/Provide the parametrized type for this generic.(Óš‘ûÿÿÿÿ8¯ÄÏÄÜ/
-O
-java:S1602€",Remove useless curly braces around statement(õú£·øÿÿÿÿ8¯ÄÏÄÜ/
-V
-java:S1197´"8Move the array designator from the variable to the type.(¸¥³²8”Ì»ÅÜ/
-^	java:S125¹"<This block of commented-out lines of code should be removed.(ÿåÔıøÿÿÿÿ8–€‚ÆÜ/
-V
-java:S1197"8Move the array designator from the variable to the type.(ë´÷“8¯ÄÏÄÜ/
-R
-java:S3740â"/Provide the parametrized type for this generic.(™Ş­Ôşÿÿÿÿ8¯ÄÏÄÜ/
-R
-java:S3740‚	"/Provide the parametrized type for this generic.(Óš‘ûÿÿÿÿ8¯ÄÏÄÜ/
-Z	java:S106n"9Replace this use of System.out or System.err by a logger.(¬ĞË‹ùÿÿÿÿ8¯ÄÏÄÜ/
-V	java:S106š"9Replace this use of System.out or System.err by a logger.(Œç¨–8¤Û¨¿Ü/
-V
-java:S1197‘"8Move the array designator from the variable to the type.(’¦¸Ë8·ˆƒÂÜ/
-U
-java:S1197ª"8Move the array designator from the variable to the type.(÷†ºh8“Ÿ˜ÅÜ/
-U	java:S106Î"9Replace this use of System.out or System.err by a logger.(ÇÑ×8ÉÒØÅÜ/
-[	java:S106»"9Replace this use of System.out or System.err by a logger.(£Ì³¸şÿÿÿÿ8¯ÄÏÄÜ/
+[	java:S106Ã"9Replace this use of System.out or System.err by a logger.(¶Â›ıÿÿÿÿ8¯ÄÏÄÜ/
 H
-java:S2114À"%Remove or correct this "addAll" call.(ø»Ó¡øÿÿÿÿ8¯ÄÏÄÜ/
-V	java:S106Ô
-"9Replace this use of System.out or System.err by a logger.(èÎàı8¯ÄÏÄÜ/
-V	java:S106ï"9Replace this use of System.out or System.err by a logger.(éã”Ş8¯ÄÏÄÜ/
-V	java:S106€
-"9Replace this use of System.out or System.err by a logger.(£ºªĞ8¯ÄÏÄÜ/
-Y	java:S125º"<This block of commented-out lines of code should be removed.(Û­±Ê8¯ÄÏÄÜ/
-R
-java:S3740ğ"/Provide the parametrized type for this generic.(±‡°ıÿÿÿÿ8¯ÄÏÄÜ/
-s
-java:S1149ß"PReplace the synchronized class "Stack" by an unsynchronized one such as "Deque".(î­Íÿüÿÿÿÿ8–€‚ÆÜ/
-[	java:S106Ü"9Replace this use of System.out or System.err by a logger.(×ºŸšûÿÿÿÿ8¯ÄÏÄÜ/
-g
-java:S11244"EReorder the modifiers to comply with the Java Language Specification.(ç¢ÿÿÿÿÿ8¤Û¨¿Ü/
-V	java:S106ó"9Replace this use of System.out or System.err by a logger.(†Ùô½8¯ÄÏÄÜ/
-V	java:S106ù"9Replace this use of System.out or System.err by a logger.(÷ŞÀÏ8¯ÄÏÄÜ/
-[	java:S106ğ"9Replace this use of System.out or System.err by a logger.(¨ˆŸîùÿÿÿÿ8¤Û¨¿Ü/
-[	java:S106’"9Replace this use of System.out or System.err by a logger.(ßÖÈØşÿÿÿÿ8¯ÄÏÄÜ/
-R
-java:S3740Ø"/Provide the parametrized type for this generic.(›ğ®ìúÿÿÿÿ8¯ÄÏÄÜ/
+java:S2114Â"%Remove or correct this "addAll" call.(ø»Ó¡øÿÿÿÿ8¯ÄÏÄÜ/
+V	java:S106—
+"9Replace this use of System.out or System.err by a logger.(úÛ±ş8¤Û¨¿Ü/
 a
 java:S11248"EReorder the modifiers to comply with the Java Language Specification.(­ğ8¤Û¨¿Ü/
-U	java:S106À
-"9Replace this use of System.out or System.err by a logger.(Š†ì8¤Û¨¿Ü/
-U	java:S106ƒ"9Replace this use of System.out or System.err by a logger.(§Úøo8¤Û¨¿Ü/
-[	java:S106æ"9Replace this use of System.out or System.err by a logger.(ÀÏ“Öùÿÿÿÿ8¯ÄÏÄÜ/
-V	java:S106ƒ	"9Replace this use of System.out or System.err by a logger.(«á·Í8¯ÄÏÄÜ/
-V	java:S106—"9Replace this use of System.out or System.err by a logger.(İÈí¨8¯ÄÏÄÜ/
-[
-java:S1197Ò"8Move the array designator from the variable to the type.(üèµ±ùÿÿÿÿ8¯ÄÏÄÜ/
-[	java:S106ö"9Replace this use of System.out or System.err by a logger.(²éˆ“üÿÿÿÿ8¯ÄÏÄÜ/
-[
-java:S1197¢"8Move the array designator from the variable to the type.(õ÷éºÿÿÿÿÿ8¯ÄÏÄÜ/
-V	java:S106£"9Replace this use of System.out or System.err by a logger.(¨÷Ø¼8ŒÊäÂÜ/
-i
-java:S1192"FDefine a constant instead of duplicating this literal "Java3" 7 times.(ªêçÍÿÿÿÿÿ8¯ÄÏÄÜ/
-a
-java:S1155ğ">Use isEmpty() to check whether the collection is empty or not.(ÿ’‰ñûÿÿÿÿ8¯ÄÏÄÜ/
-R
-java:S3740ğ"/Provide the parametrized type for this generic.(±‡°ıÿÿÿÿ8¯ÄÏÄÜ/
-g
-java:S1124."EReorder the modifiers to comply with the Java Language Specification.(ÅîÎíøÿÿÿÿ8¤Û¨¿Ü/
-b
-java:S1124="EReorder the modifiers to comply with the Java Language Specification.(æŸõ8¤Û¨¿Ü/
-O
-java:S1612€",Replace this lambda with a method reference.(õú£·øÿÿÿÿ8¯ÄÏÄÜ/
-[	java:S106í"9Replace this use of System.out or System.err by a logger.(‡îÁÂùÿÿÿÿ8¯ÄÏÄÜ/
-V	java:S106•
-"9Replace this use of System.out or System.err by a logger.(úÛ±ş8¤Û¨¿Ü/
-{	java:S115)"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(¥çµçûÿÿÿÿ8¤Û¨¿Ü/
-V	java:S106¶"9Replace this use of System.out or System.err by a logger.(Æ€ûÇ8¤Û¨¿Ü/
-[	java:S106ô"9Replace this use of System.out or System.err by a logger.(†Äõ”ıÿÿÿÿ8¯ÄÏÄÜ/
-V	java:S106®"9Replace this use of System.out or System.err by a logger.(Æ·‹8¯ÄÏÄÜ/
-R
-java:S3740ö"/Provide the parametrized type for this generic.(æ’”ÿÿÿÿÿ8¯ÄÏÄÜ/
-V	java:S106Ç"9Replace this use of System.out or System.err by a logger.(«á·Í8¯ÄÏÄÜ/
-V
-java:S1197à"8Move the array designator from the variable to the type.(¯ºü€8¯ÄÏÄÜ/
-Y	java:S125²"<This block of commented-out lines of code should be removed.(ÀÕû‘8¯ÄÏÄÜ/
-X
-java:S1611€"5Remove the parentheses around the "element" parameter(õú£·øÿÿÿÿ8¯ÄÏÄÜ/
-[	java:S106æ"9Replace this use of System.out or System.err by a logger.(Œó™×úÿÿÿÿ8¯ÄÏÄÜ/
-R
-java:S3740Ì"/Provide the parametrized type for this generic.(Ÿ–›ôşÿÿÿÿ8¯ÄÏÄÜ/
-R
-java:S3740â"/Provide the parametrized type for this generic.(™Ş­Ôşÿÿÿÿ8¯ÄÏÄÜ/
-[	java:S106Ÿ"9Replace this use of System.out or System.err by a logger.(ú´÷øÿÿÿÿÿ8¯ÄÏÄÜ/
-[
-java:S1197’"8Move the array designator from the variable to the type.(ÕÊÿêşÿÿÿÿ8¯ÄÏÄÜ/
-O
-java:S1612õ",Replace this lambda with a method reference.(¦¿½ÿùÿÿÿÿ8¯ÄÏÄÜ/
-V	java:S106Í"9Replace this use of System.out or System.err by a logger.(«á·Í8¯ÄÏÄÜ/
-[	java:S106ì"9Replace this use of System.out or System.err by a logger.(‘²»¿üÿÿÿÿ8–€‚ÆÜ/
-V	java:S106‘"9Replace this use of System.out or System.err by a logger.(‰×òº8¯ÄÏÄÜ/
-V	java:S106ô"9Replace this use of System.out or System.err by a logger.(«á·Í8¯ÄÏÄÜ/
-V	java:S106Ó"9Replace this use of System.out or System.err by a logger.(½©‹®8¯ÄÏÄÜ/
-[	java:S106»	"9Replace this use of System.out or System.err by a logger.(š•üÿúÿÿÿÿ8¯ÄÏÄÜ/
-V
-java:S1197ş"8Move the array designator from the variable to the type.(ÿıšå8¯ÄÏÄÜ/
-[	java:S106ñ
-"9Replace this use of System.out or System.err by a logger.(¼Íäıÿÿÿÿ8¯ÄÏÄÜ/
-[	java:S106œ"9Replace this use of System.out or System.err by a logger.(…¡¥ƒıÿÿÿÿ8¯ÄÏÄÜ/
-V	java:S106®"9Replace this use of System.out or System.err by a logger.(ĞÌûı8ĞÉ¤ÅÜ/
-V	java:S106ş"9Replace this use of System.out or System.err by a logger.(«á·Í8¯ÄÏÄÜ/
-V	java:S106ö"9Replace this use of System.out or System.err by a logger.(³¤–8¯ÄÏÄÜ/
-g
-java:S1124,"EReorder the modifiers to comply with the Java Language Specification.(Å¬áúÿÿÿÿ8¤Û¨¿Ü/
-g
-java:S1124/"EReorder the modifiers to comply with the Java Language Specification.(¦Ï˜‰üÿÿÿÿ8¤Û¨¿Ü/
-U	java:S106á"9Replace this use of System.out or System.err by a logger.(òç]8¯ÄÏÄÜ/
-g
-java:S1124;"EReorder the modifiers to comply with the Java Language Specification.(éªæÆøÿÿÿÿ8¤Û¨¿Ü/
-V	java:S106ô	"9Replace this use of System.out or System.err by a logger.(«á·Í8¯ÄÏÄÜ/
-[	java:S106š"9Replace this use of System.out or System.err by a logger.(ÍÛ›Òüÿÿÿÿ8¤Û¨¿Ü/
-[	java:S106ü"9Replace this use of System.out or System.err by a logger.(íú™€ıÿÿÿÿ8¤Û¨¿Ü/
-V	java:S106Ç"9Replace this use of System.out or System.err by a logger.(ññ‡8¯ÄÏÄÜ/
-V	java:S106€"9Replace this use of System.out or System.err by a logger.(Ù©È±8¯ÄÏÄÜ/
-V	java:S106·"9Replace this use of System.out or System.err by a logger.(ØñÈ8§ûÀÅÜ/
-[	java:S106Ë"9Replace this use of System.out or System.err by a logger.(ØğÑ’ùÿÿÿÿ8¯ÄÏÄÜ/
-R
-java:S3740©"/Provide the parametrized type for this generic.(©÷€øÿÿÿÿ8¯ÄÏÄÜ/
-[	java:S106Ú
-"9Replace this use of System.out or System.err by a logger.(†âæııÿÿÿÿ8¯ÄÏÄÜ/
-V	java:S106‚
-"9Replace this use of System.out or System.err by a logger.(«á·Í8¯ÄÏÄÜ/
-[	java:S106‚"9Replace this use of System.out or System.err by a logger.(ªÓ¼áşÿÿÿÿ8·ƒèÁÜ/
-g
-java:S11242"EReorder the modifiers to comply with the Java Language Specification.(ûòòşÿÿÿÿ8¤Û¨¿Ü/
-m
-java:S1149î"PReplace the synchronized class "Stack" by an unsynchronized one such as "Deque".(ÔÈŒs8¯ÄÏÄÜ/
-g
-java:S11241"EReorder the modifiers to comply with the Java Language Specification.(ÍÏíÛşÿÿÿÿ8¤Û¨¿Ü/
-Y	java:S125‡"<This block of commented-out lines of code should be removed.(Ç¥¹õ8¯ÄÏÄÜ/
-[	java:S106¬"9Replace this use of System.out or System.err by a logger.(¨¶ÑÍşÿÿÿÿ8¯ÄÏÄÜ/
-V	java:S106³"9Replace this use of System.out or System.err by a logger.(œ•é‹8¯ÄÏÄÜ/
-[	java:S106¦"9Replace this use of System.out or System.err by a logger.(ÍÛ›Òüÿÿÿÿ8¯ÄÏÄÜ/
-M
-java:S3740ó	"/Provide the parametrized type for this generic.(ˆÿŠñ8¯ÄÏÄÜ/
-Y	java:S125„"<This block of commented-out lines of code should be removed.(ü±¿Ù8¯ÄÏÄÜ/
-[	java:S106Ç"9Replace this use of System.out or System.err by a logger.(ƒ‘ßÃşÿÿÿÿ8¯ÄÏÄÜ/
-J
-java:S1612Ù",Replace this lambda with a method reference.(ÀŒ•„8¯ÄÏÄÜ/
-[	java:S106‘"9Replace this use of System.out or System.err by a logger.(°×Ø¦ÿÿÿÿÿ8¤Û¨¿Ü/
-[	java:S106€	"9Replace this use of System.out or System.err by a logger.(Åš×ıÿÿÿÿ8¯ÄÏÄÜ/
-[	java:S106"9Replace this use of System.out or System.err by a logger.(¬ĞË‹ùÿÿÿÿ8¯ÄÏÄÜ/
-U	java:S106Ä"9Replace this use of System.out or System.err by a logger.(’Ñş8¯ÄÏÄÜ/
-f
-java:S1192Ê"HDefine a constant instead of duplicating this literal "After: " 4 times.(ÃÒ×à8¯ÄÏÄÜ/
-L
-java:S3740ô"/Provide the parametrized type for this generic.(¿æ–`8¯ÄÏÄÜ/
+\
+java:S1155õ">Use isEmpty() to check whether the collection is empty or not.(ÚÎ’š8¯ÄÏÄÜ/
 b
 java:S1124-"EReorder the modifiers to comply with the Java Language Specification.(µ÷şÂ8¤Û¨¿Ü/
+[
+java:S1197î"8Move the array designator from the variable to the type.(«¤ˆÆıÿÿÿÿ8¯ÄÏÄÜ/
+V	java:S106®"9Replace this use of System.out or System.err by a logger.(ÅİÜ8ĞÉ¤ÅÜ/
+M
+java:S3740"/Provide the parametrized type for this generic.(Ğ”Î§8¯ÄÏÄÜ/
+[	java:S106"9Replace this use of System.out or System.err by a logger.(—«±“şÿÿÿÿ8¯ÄÏÄÜ/
+[	java:S106”"9Replace this use of System.out or System.err by a logger.(ùğ²şÿÿÿÿ8¤Û¨¿Ü/
+[	java:S106ï"9Replace this use of System.out or System.err by a logger.(‡îÁÂùÿÿÿÿ8¯ÄÏÄÜ/
+[	java:S106­"9Replace this use of System.out or System.err by a logger.(¹¦…‡úÿÿÿÿ8¯ÄÏÄÜ/
+[	java:S106å"9Replace this use of System.out or System.err by a logger.(Èä‡»ûÿÿÿÿ8¯ÄÏÄÜ/
+g
+java:S1124?"EReorder the modifiers to comply with the Java Language Specification.(»Ùƒ¿ıÿÿÿÿ8Óâ–‘Ş/
+V	java:S106¬"9Replace this use of System.out or System.err by a logger.(·ĞÚ 8¯ÄÏÄÜ/
+V	java:S106ê"9Replace this use of System.out or System.err by a logger.(¤ÄÎ¤8¯ÄÏÄÜ/
+V	java:S106×"9Replace this use of System.out or System.err by a logger.(«á·Í8¯ÄÏÄÜ/
+U	java:S106Ë"9Replace this use of System.out or System.err by a logger.(ÇÑ×8ÉÒØÅÜ/
 R
-java:S3740Ÿ	"/Provide the parametrized type for this generic.(š·ˆ¨øÿÿÿÿ8¯ÄÏÄÜ/
-[	java:S106Ç"9Replace this use of System.out or System.err by a logger.(×ñø»şÿÿÿÿ8–€‚ÆÜ/
+java:S3740Ÿ"/Provide the parametrized type for this generic.(åâ—úıÿÿÿÿ8¯ÄÏÄÜ/
+c
+java:S1192Q"FDefine a constant instead of duplicating this literal "three" 3 times.(ŞóÚ8¯ÄÏÄÜ/
+o
+java:S3776A"RRefactor this method to reduce its Cognitive Complexity from 59 to the 15 allowed.(Çµí‘8¯ÄÏÄÜ/
+[	java:S106ø"9Replace this use of System.out or System.err by a logger.(ç§¢Üûÿÿÿÿ8¯ÄÏÄÜ/
+i
+java:S1192ğ"FDefine a constant instead of duplicating this literal "Size " 6 times.(íú™€ıÿÿÿÿ8¯ÄÏÄÜ/
+[	java:S106š
+"9Replace this use of System.out or System.err by a logger.(æï¸Ÿøÿÿÿÿ8¯ÄÏÄÜ/
+[	java:S106ï
+"9Replace this use of System.out or System.err by a logger.(ªÓ¼áşÿÿÿÿ8·ƒèÁÜ/
+V	java:S106·"9Replace this use of System.out or System.err by a logger.(´·¶î8¯ÄÏÄÜ/
 R
-java:S3740"/Provide the parametrized type for this generic.(åâ—úıÿÿÿÿ8¯ÄÏÄÜ/
+java:S3740ê"/Provide the parametrized type for this generic.(ÅÔ•·ùÿÿÿÿ8¯ÄÏÄÜ/
+J
+java:S1612Û",Replace this lambda with a method reference.(ÀŒ•„8¯ÄÏÄÜ/
+V	java:S106Ñ	"9Replace this use of System.out or System.err by a logger.(²¿’8¯ÄÏÄÜ/
+V	java:S106°"9Replace this use of System.out or System.err by a logger.(ĞÌûı8ĞÉ¤ÅÜ/
+[	java:S106Ì	"9Replace this use of System.out or System.err by a logger.(»Ì·óüÿÿÿÿ8¯ÄÏÄÜ/
+V	java:S106ñ"9Replace this use of System.out or System.err by a logger.(†Ùô½8¤Û¨¿Ü/
+f
+java:S1192Ì"HDefine a constant instead of duplicating this literal "After: " 4 times.(ÃÒ×à8¯ÄÏÄÜ/
+Y	java:S125¼"<This block of commented-out lines of code should be removed.(Û­±Ê8¯ÄÏÄÜ/
+b
+java:S11247"EReorder the modifiers to comply with the Java Language Specification.(ïì¹±8¤Û¨¿Ü/
+[	java:S106“"9Replace this use of System.out or System.err by a logger.(°×Ø¦ÿÿÿÿÿ8¤Û¨¿Ü/
+V	java:S106í"9Replace this use of System.out or System.err by a logger.(¬Š÷8¯ÄÏÄÜ/
+U	java:S106Â
+"9Replace this use of System.out or System.err by a logger.(Š†ì8¤Û¨¿Ü/
+V	java:S106±"9Replace this use of System.out or System.err by a logger.(Ö„òÆ8¯ÄÏÄÜ/
 V
-java:S1197†"8Move the array designator from the variable to the type.(©æêñ8¯ÄÏÄÜ/
-V	java:S106·"9Replace this use of System.out or System.err by a logger.(«ô›ˆ8¯ÄÏÄÜ/
-[	java:S106ü"9Replace this use of System.out or System.err by a logger.(æ¨¤šøÿÿÿÿ8¯ÄÏÄÜ/
-V	java:S106Œ"9Replace this use of System.out or System.err by a logger.(’·Û«8¯ÄÏÄÜ/
-[	java:S106Ÿ"9Replace this use of System.out or System.err by a logger.(¹³ÿÿÿÿÿ8¯ÄÏÄÜ/
-[	java:S106ñ"9Replace this use of System.out or System.err by a logger.(ëµˆğûÿÿÿÿ8¯ÄÏÄÜ/
+java:S1197 "8Move the array designator from the variable to the type.(ë´÷“8¯ÄÏÄÜ/
+R
+java:S3740õ"/Provide the parametrized type for this generic.(Óš‘ûÿÿÿÿ8¯ÄÏÄÜ/
+[	java:S106œ"9Replace this use of System.out or System.err by a logger.(ÍÛ›Òüÿÿÿÿ8¯ÄÏÄÜ/
+[	java:S106¨"9Replace this use of System.out or System.err by a logger.(ïğ´«ıÿÿÿÿ8¯ÄÏÄÜ/
+[	java:S106’"9Replace this use of System.out or System.err by a logger.(Ÿ¬úùÿÿÿÿ8¯ÄÏÄÜ/
+g
+java:S4143¸"DVerify this is the key that was intended; it was already set before.(®êŒõşÿÿÿÿ8¯ÄÏÄÜ/
+Y	java:S125´"<This block of commented-out lines of code should be removed.(ÀÕû‘8¯ÄÏÄÜ/
+[	java:S106Å"9Replace this use of System.out or System.err by a logger.(Áúêèúÿÿÿÿ8¯ÄÏÄÜ/
+V	java:S106ö"9Replace this use of System.out or System.err by a logger.(ßÈœŒ8¯ÄÏÄÜ/
+Y	java:S125†"<This block of commented-out lines of code should be removed.(ü±¿Ù8¯ÄÏÄÜ/
+
+java:S1319”"lThe type of the "n" object should be an interface such as "List" rather than the implementation "ArrayList".(òüËúÿÿÿÿ8×Ô ”Ş/
+V	java:S106Ì"9Replace this use of System.out or System.err by a logger.(ÃÒ×à8¯ÄÏÄÜ/
+[	java:S106®	"9Replace this use of System.out or System.err by a logger.(·Â–¿ÿÿÿÿÿ8¤Û¨¿Ü/
+[	java:S106Í"9Replace this use of System.out or System.err by a logger.(ØğÑ’ùÿÿÿÿ8¯ÄÏÄÜ/
+V	java:S106‚
+"9Replace this use of System.out or System.err by a logger.(£ºªĞ8¯ÄÏÄÜ/
+[	java:S106‚"9Replace this use of System.out or System.err by a logger.(üÖâ­øÿÿÿÿ8¯ÄÏÄÜ/
+V	java:S106¦"9Replace this use of System.out or System.err by a logger.(øï¢‹8×Ô ”Ş/
+V	java:S106É"9Replace this use of System.out or System.err by a logger.(«á·Í8¯ÄÏÄÜ/
+V	java:S106¹"9Replace this use of System.out or System.err by a logger.(«ô›ˆ8¯ÄÏÄÜ/
+^	java:S125»"<This block of commented-out lines of code should be removed.(ÿåÔıøÿÿÿÿ8–€‚ÆÜ/
+V	java:S106"9Replace this use of System.out or System.err by a logger.(¹®‰8×Ô ”Ş/
+a
+java:S11249"EReorder the modifiers to comply with the Java Language Specification.(ªÛï58¤Û¨¿Ü/
+R
+java:S3740Î"/Provide the parametrized type for this generic.(Ÿ–›ôşÿÿÿÿ8¯ÄÏÄÜ/
+[	java:S106É"9Replace this use of System.out or System.err by a logger.(ƒ‘ßÃşÿÿÿÿ8¯ÄÏÄÜ/
+S
+java:S1611Û"5Remove the parentheses around the "element" parameter(ÀŒ•„8¯ÄÏÄÜ/
+o
+java:S1192ò"LDefine a constant instead of duplicating this literal "Is empty ? " 4 times.(¨ˆŸîùÿÿÿÿ8¯ÄÏÄÜ/
+V	java:S106Î"9Replace this use of System.out or System.err by a logger.(„¡Á¥8–€‚ÆÜ/
+[	java:S106š"9Replace this use of System.out or System.err by a logger.(ÍÛ›Òüÿÿÿÿ8¯ÄÏÄÜ/
+U	java:S106î"9Replace this use of System.out or System.err by a logger.(ƒÚáB8¯ÄÏÄÜ/
+^	java:S125´"<This block of commented-out lines of code should be removed.(ş¯¥ıÿÿÿÿ8¯ÄÏÄÜ/
+J
+java:S1612ı",Replace this lambda with a method reference.(°Í˜—8¯ÄÏÄÜ/
+[	java:S106Ü
+"9Replace this use of System.out or System.err by a logger.(†âæııÿÿÿÿ8¯ÄÏÄÜ/
+i
+java:S1192"FDefine a constant instead of duplicating this literal "Java3" 7 times.(ªêçÍÿÿÿÿÿ8¯ÄÏÄÜ/
+[	java:S106¢"9Replace this use of System.out or System.err by a logger.(‘²»¿üÿÿÿÿ8×Ô ”Ş/
+a
+java:S1155ò">Use isEmpty() to check whether the collection is empty or not.(ÿ’‰ñûÿÿÿÿ8¯ÄÏÄÜ/
+V	java:S106Ì"9Replace this use of System.out or System.err by a logger.(ÿÿ×È8¯ÄÏÄÜ/
+[	java:S106¤"9Replace this use of System.out or System.err by a logger.(ÍÛ›Òüÿÿÿÿ8¯ÄÏÄÜ/
+[	java:S106©
+"9Replace this use of System.out or System.err by a logger.(Öì¤õúÿÿÿÿ8¯ÄÏÄÜ/
+V
+java:S1197“"8Move the array designator from the variable to the type.(’¦¸Ë8·ˆƒÂÜ/
+U	java:S106ü
+"9Replace this use of System.out or System.err by a logger.(ÛÛt8¯ÄÏÄÜ/
+V	java:S106™"9Replace this use of System.out or System.err by a logger.(İÈí¨8¯ÄÏÄÜ/
+[	java:S106ò"9Replace this use of System.out or System.err by a logger.(¨ˆŸîùÿÿÿÿ8¤Û¨¿Ü/
+g
+java:S1124."EReorder the modifiers to comply with the Java Language Specification.(ÅîÎíøÿÿÿÿ8¤Û¨¿Ü/
+[	java:S106Ş"9Replace this use of System.out or System.err by a logger.(×ºŸšûÿÿÿÿ8¯ÄÏÄÜ/
+[	java:S106Õ"9Replace this use of System.out or System.err by a logger.(ŸÏæ´üÿÿÿÿ8¯ÄÏÄÜ/
+V	java:S106»	"9Replace this use of System.out or System.err by a logger.(šÊ‚™8¯ÄÏÄÜ/
+[	java:S106"9Replace this use of System.out or System.err by a logger.(ÍÛ›Òüÿÿÿÿ8¤Û¨¿Ü/
+V	java:S106–
+"9Replace this use of System.out or System.err by a logger.(ß¯ªµ8¤Û¨¿Ü/
+[	java:S106ö"9Replace this use of System.out or System.err by a logger.(×ğàıÿÿÿÿ8”è¢“Ş/
+J
+java:S1602ı",Remove useless curly braces around statement(°Í˜—8¯ÄÏÄÜ/
+V	java:S106ù"9Replace this use of System.out or System.err by a logger.(«á·Í8¯ÄÏÄÜ/
+[	java:S106¾"9Replace this use of System.out or System.err by a logger.(Ì™Æíÿÿÿÿÿ8¯ÄÏÄÜ/
+V	java:S106™"9Replace this use of System.out or System.err by a logger.(©ä¯ë8¤Û¨¿Ü/
+V	java:S106–"9Replace this use of System.out or System.err by a logger.(ªïõù8¯ÄÏÄÜ/
+[	java:S106¡"9Replace this use of System.out or System.err by a logger.(‡ûõıÿÿÿÿ8¯ÄÏÄÜ/
+[	java:S106ø"9Replace this use of System.out or System.err by a logger.(²éˆ“üÿÿÿÿ8¯ÄÏÄÜ/
+V	java:S106û"9Replace this use of System.out or System.err by a logger.(«á·Í8¯ÄÏÄÜ/
+[	java:S106ı"9Replace this use of System.out or System.err by a logger.(ç§¢Üûÿÿÿÿ8¯ÄÏÄÜ/
+R
+java:S3740ò"/Provide the parametrized type for this generic.(±‡°ıÿÿÿÿ8¯ÄÏÄÜ/
+b
+java:S1124+"EReorder the modifiers to comply with the Java Language Specification.(•³Ê8¤Û¨¿Ü/
+V	java:S106°	"9Replace this use of System.out or System.err by a logger.(Ò£ÚÅ8¯ÄÏÄÜ/
+[	java:S106›"9Replace this use of System.out or System.err by a logger.(‘óÈÈüÿÿÿÿ8¤Û¨¿Ü/
+V	java:S106ö	"9Replace this use of System.out or System.err by a logger.(«á·Í8¯ÄÏÄÜ/
+V	java:S106Ã
+"9Replace this use of System.out or System.err by a logger.(Èá‘ß8¯ÄÏÄÜ/
+R
+java:S3740Î"/Provide the parametrized type for this generic.(¿¨±ûúÿÿÿÿ8¯ÄÏÄÜ/
+[	java:S106†"9Replace this use of System.out or System.err by a logger.(Ä¶Ü¼øÿÿÿÿ8¯ÄÏÄÜ/
+M
+java:S3740ì"/Provide the parametrized type for this generic.(¿ĞÚ…8¯ÄÏÄÜ/
+Y	java:S125¡"<This block of commented-out lines of code should be removed.(úìÑ¿8¯ÄÏÄÜ/
+[	java:S106ş"9Replace this use of System.out or System.err by a logger.(æ¨¤šøÿÿÿÿ8¯ÄÏÄÜ/
+R
+java:S3740«"/Provide the parametrized type for this generic.(©÷€øÿÿÿÿ8¯ÄÏÄÜ/
+g
+java:S11244"EReorder the modifiers to comply with the Java Language Specification.(ç¢ÿÿÿÿÿ8¤Û¨¿Ü/
+V	java:S106û"9Replace this use of System.out or System.err by a logger.(÷ŞÀÏ8¯ÄÏÄÜ/
+{	java:S115)"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(¥çµçûÿÿÿÿ8¤Û¨¿Ü/
+V	java:S106§"9Replace this use of System.out or System.err by a logger.(©ä¯ë8¤Û¨¿Ü/
+V	java:S106›"9Replace this use of System.out or System.err by a logger.(ÌÎ•™8¯ÄÏÄÜ/
+[	java:S106è"9Replace this use of System.out or System.err by a logger.(ÀÏ“Öùÿÿÿÿ8¯ÄÏÄÜ/
+[
+java:S1197Ô"8Move the array designator from the variable to the type.(üèµ±ùÿÿÿÿ8¯ÄÏÄÜ/
+[
+java:S1197¤"8Move the array designator from the variable to the type.(õ÷éºÿÿÿÿÿ8¯ÄÏÄÜ/
+V	java:S106¥"9Replace this use of System.out or System.err by a logger.(¨÷Ø¼8ŒÊäÂÜ/
+[
+java:S1197”"8Move the array designator from the variable to the type.(ÕÊÿêşÿÿÿÿ8¯ÄÏÄÜ/
+g
+java:S11241"EReorder the modifiers to comply with the Java Language Specification.(ÍÏíÛşÿÿÿÿ8¤Û¨¿Ü/
+R
+java:S3740Ú"/Provide the parametrized type for this generic.(›ğ®ìúÿÿÿÿ8¯ÄÏÄÜ/
+[	java:S106–"9Replace this use of System.out or System.err by a logger.(Ê½§›ûÿÿÿÿ8¯ÄÏÄÜ/
+V
+java:S1197â"8Move the array designator from the variable to the type.(¯ºü€8¯ÄÏÄÜ/
+V	java:S106–"9Replace this use of System.out or System.err by a logger.( Ãù8¯ÄÏÄÜ/
+M
+java:S3740õ	"/Provide the parametrized type for this generic.(ˆÿŠñ8¯ÄÏÄÜ/
+g
+java:S1124>"EReorder the modifiers to comply with the Java Language Specification.(ÛÜÚîûÿÿÿÿ8Óâ–‘Ş/
+V	java:S106œ"9Replace this use of System.out or System.err by a logger.(Œç¨–8¤Û¨¿Ü/
+V	java:S106Õ"9Replace this use of System.out or System.err by a logger.(½©‹®8¯ÄÏÄÜ/
+V	java:S106Ò"9Replace this use of System.out or System.err by a logger.(ˆ‹çı8¯ÄÏÄÜ/
+V	java:S106…	"9Replace this use of System.out or System.err by a logger.(«á·Í8¯ÄÏÄÜ/
+[	java:S106¡"9Replace this use of System.out or System.err by a logger.(Ì‹ÓÀùÿÿÿÿ8¯ÄÏÄÜ/
+V	java:S106»"9Replace this use of System.out or System.err by a logger.(«á·Í8¯ÄÏÄÜ/
+[	java:S106ä"9Replace this use of System.out or System.err by a logger.(ÀÏ“Öùÿÿÿÿ8¯ÄÏÄÜ/
+[	java:S106»"9Replace this use of System.out or System.err by a logger.(™°äıÿÿÿÿ8¯ÄÏÄÜ/
+[	java:S106¦
+"9Replace this use of System.out or System.err by a logger.(íÛ™Õûÿÿÿÿ8¤Û¨¿Ü/
+U	java:S106È"9Replace this use of System.out or System.err by a logger.(ƒÚáB8¯ÄÏÄÜ/
+V	java:S106‰
+"9Replace this use of System.out or System.err by a logger.(«á·Í8¯ÄÏÄÜ/
+[	java:S106†"9Replace this use of System.out or System.err by a logger.(½ıêÿÿÿÿÿ8¯ÄÏÄÜ/
+[	java:S106Ô"9Replace this use of System.out or System.err by a logger.(ï¾óÌøÿÿÿÿ8¯ÄÏÄÜ/
+[	java:S106ƒ"9Replace this use of System.out or System.err by a logger.(†ñ¨Àúÿÿÿÿ8É²¢”Ş/
+g
+java:S11245"EReorder the modifiers to comply with the Java Language Specification.(†„áıÿÿÿÿ8¤Û¨¿Ü/
+s
+java:S1149•"PReplace the synchronized class "Stack" by an unsynchronized one such as "Deque".(î­Íÿüÿÿÿÿ8×Ô ”Ş/
+R
+java:S3740ä"/Provide the parametrized type for this generic.(™Ş­Ôşÿÿÿÿ8¯ÄÏÄÜ/
+g
+java:S1124/"EReorder the modifiers to comply with the Java Language Specification.(¦Ï˜‰üÿÿÿÿ8¤Û¨¿Ü/
+R
+java:S3740ÿ"/Provide the parametrized type for this generic.(Óš‘ûÿÿÿÿ8¯ÄÏÄÜ/
+b
+java:S1124:"EReorder the modifiers to comply with the Java Language Specification.(¥È·8¤Û¨¿Ü/
+V
+java:S1197€"8Move the array designator from the variable to the type.(ÿıšå8¯ÄÏÄÜ/
+g
+java:S1124)"EReorder the modifiers to comply with the Java Language Specification.(¥çµçûÿÿÿÿ8¤Û¨¿Ü/
+[	java:S106‡"9Replace this use of System.out or System.err by a logger.(ßÖÈØşÿÿÿÿ8¯ÄÏÄÜ/
+[	java:S106¦"9Replace this use of System.out or System.err by a logger.(ñÔ¨Êüÿÿÿÿ8¯ÄÏÄÜ/
+U
+java:S1197¬"8Move the array designator from the variable to the type.(÷†ºh8“Ÿ˜ÅÜ/
+[	java:S106Œ"9Replace this use of System.out or System.err by a logger.(òËùúûÿÿÿÿ8·ˆƒÂÜ/
+n
+java:S1149Å"PReplace the synchronized class "Stack" by an unsynchronized one such as "Deque".(ªÃò¡8¯ÄÏÄÜ/
+[	java:S106¯	"9Replace this use of System.out or System.err by a logger.(µ†ìêşÿÿÿÿ8¤Û¨¿Ü/
+V	java:S106„
+"9Replace this use of System.out or System.err by a logger.(«á·Í8¯ÄÏÄÜ/
+V	java:S106á"9Replace this use of System.out or System.err by a logger.(œ„ÚÁ8¯ÄÏÄÜ/
+V	java:S106ã"9Replace this use of System.out or System.err by a logger.(æ ë8¯ÄÏÄÜ/
+V	java:S106£"9Replace this use of System.out or System.err by a logger.(©ä¯ë8¤Û¨¿Ü/
+Y	java:S125û"<This block of commented-out lines of code should be removed.(Œ¼Á˜8¯ÄÏÄÜ/
+V	java:S106§"9Replace this use of System.out or System.err by a logger.(ø©®æ8ä§·ÅÜ/
+V	java:S106„"9Replace this use of System.out or System.err by a logger.(Ü®¢°8¯ÄÏÄÜ/
+ˆ
+java:S1149¼"eReplace the synchronized class "Vector" by an unsynchronized one such as "ArrayList" or "LinkedList".(–œ¢Öıÿÿÿÿ8¯ÄÏÄÜ/
+V
+java:S1197¶"8Move the array designator from the variable to the type.(¸¥³²8”Ì»ÅÜ/
+M
+java:S3740ƒ
+"/Provide the parametrized type for this generic.(¸ßÿµ8¯ÄÏÄÜ/
+[	java:S106É"9Replace this use of System.out or System.err by a logger.(×ñø»şÿÿÿÿ8–€‚ÆÜ/
+R
+java:S3740ô"/Provide the parametrized type for this generic.(Áòæşÿÿÿÿ8¯ÄÏÄÜ/
+[	java:S106ƒ"9Replace this use of System.out or System.err by a logger.(¬ĞË‹ùÿÿÿÿ8¯ÄÏÄÜ/
+[	java:S106í"9Replace this use of System.out or System.err by a logger.(ö°Ã§ÿÿÿÿÿ8¯ÄÏÄÜ/
+V	java:S106Ì"9Replace this use of System.out or System.err by a logger.(…¥ Æ8¯ÄÏÄÜ/
+V	java:S106…"9Replace this use of System.out or System.err by a logger.(Ì²çò8·ˆƒÂÜ/
+[
+java:S1197š"8Move the array designator from the variable to the type.(Ö¼»ÿÿÿÿÿ8¯ÄÏÄÜ/
+m
+java:S1149ğ"PReplace the synchronized class "Stack" by an unsynchronized one such as "Deque".(ÔÈŒs8¯ÄÏÄÜ/
+[	java:S106€"9Replace this use of System.out or System.err by a logger.(Õ§ÛŸûÿÿÿÿ8¯ÄÏÄÜ/
+b
+java:S1124'"EReorder the modifiers to comply with the Java Language Specification.(ü·çç8¤Û¨¿Ü/
+R
+java:S3740È"/Provide the parametrized type for this generic.(Ÿ–›ôşÿÿÿÿ8¯ÄÏÄÜ/
+g
+java:S1124<"EReorder the modifiers to comply with the Java Language Specification.(›‘¯±ÿÿÿÿÿ8¤Û¨¿Ü/
+[	java:S106ó"9Replace this use of System.out or System.err by a logger.(ëµˆğûÿÿÿÿ8¯ÄÏÄÜ/
+V	java:S106€	"9Replace this use of System.out or System.err by a logger.(«á·Í8¯ÄÏÄÜ/
+[	java:S106ä
+"9Replace this use of System.out or System.err by a logger.(ìƒŞ•ùÿÿÿÿ8¯ÄÏÄÜ/
+V	java:S106•"9Replace this use of System.out or System.err by a logger.(‚ßÅÚ8¯ÄÏÄÜ/
+[	java:S106§"9Replace this use of System.out or System.err by a logger.(¶æŸˆûÿÿÿÿ8¯ÄÏÄÜ/
+O
+java:S1602÷",Remove useless curly braces around statement(¦¿½ÿùÿÿÿÿ8¯ÄÏÄÜ/
+g
+java:S1124;"EReorder the modifiers to comply with the Java Language Specification.(éªæÆøÿÿÿÿ8¤Û¨¿Ü/
+J
+java:S1602Û",Remove useless curly braces around statement(ÀŒ•„8¯ÄÏÄÜ/
+V	java:S106«"9Replace this use of System.out or System.err by a logger.(˜Œ¦Å8¯ÄÏÄÜ/
+U	java:S106Æ"9Replace this use of System.out or System.err by a logger.(’Ñş8¯ÄÏÄÜ/
+U	java:S106…"9Replace this use of System.out or System.err by a logger.(§Úøo8¤Û¨¿Ü/
+V	java:S106‡
+"9Replace this use of System.out or System.err by a logger.(™Ã™·8¯ÄÏÄÜ/
+[	java:S106ø"9Replace this use of System.out or System.err by a logger.(æ¨¤šøÿÿÿÿ8¯ÄÏÄÜ/
+V	java:S106Ö
+"9Replace this use of System.out or System.err by a logger.(èÎàı8¯ÄÏÄÜ/
+^	java:S125Ù"<This block of commented-out lines of code should be removed.(úÜô şÿÿÿÿ8¯ÄÏÄÜ/
+V	java:S106É"9Replace this use of System.out or System.err by a logger.(ññ‡8¯ÄÏÄÜ/
+Y	java:S125ù"<This block of commented-out lines of code should be removed.(•¦ã¬8¯ÄÏÄÜ/
+[	java:S106ö"9Replace this use of System.out or System.err by a logger.(†Äõ”ıÿÿÿÿ8¯ÄÏÄÜ/
+[	java:S106ê"9Replace this use of System.out or System.err by a logger.(ÀÏ“Öùÿÿÿÿ8¯ÄÏÄÜ/
+[	java:S106 "9Replace this use of System.out or System.err by a logger.(¹¦…‡úÿÿÿÿ8¯ÄÏÄÜ/
+b
+java:S1124="EReorder the modifiers to comply with the Java Language Specification.(æŸõ8¤Û¨¿Ü/
+R
+java:S3740ä"/Provide the parametrized type for this generic.(™Ş­Ôşÿÿÿÿ8¯ÄÏÄÜ/
+[	java:S106”"9Replace this use of System.out or System.err by a logger.(ßÖÈØşÿÿÿÿ8¯ÄÏÄÜ/
+Y	java:S125"<This block of commented-out lines of code should be removed.(Ô„œ8¯ÄÏÄÜ/
+l
+java:S1192É"IDefine a constant instead of duplicating this literal "Before: " 3 times.(ƒ‘ßÃşÿÿÿÿ8¯ÄÏÄÜ/
 b
 java:S11246"EReorder the modifiers to comply with the Java Language Specification.(›³Ş8¤Û¨¿Ü/
-V	java:S106ù"9Replace this use of System.out or System.err by a logger.(«á·Í8¯ÄÏÄÜ/
-[	java:S106Ÿ"9Replace this use of System.out or System.err by a logger.(Ì‹ÓÀùÿÿÿÿ8¯ÄÏÄÜ/
-[	java:S106"9Replace this use of System.out or System.err by a logger.(Ÿ¬úùÿÿÿÿ8¯ÄÏÄÜ/
-V	java:S106¥
-"9Replace this use of System.out or System.err by a logger.(½Úõ±8¤Û¨¿Ü/
-V	java:S106÷"9Replace this use of System.out or System.err by a logger.(·áÃ8¯ÄÏÄÜ/
-V	java:S106¬"9Replace this use of System.out or System.err by a logger.(ÅİÜ8ĞÉ¤ÅÜ/
-[	java:S106Ï"9Replace this use of System.out or System.err by a logger.(‚é€Şûÿÿÿÿ8¯ÄÏÄÜ/
-[	java:S106º"9Replace this use of System.out or System.err by a logger.(ˆªıáûÿÿÿÿ8¯ÄÏÄÜ/
-V	java:S106“"9Replace this use of System.out or System.err by a logger.(šÒßê8¤Û¨¿Ü/
-[	java:S106Õ"9Replace this use of System.out or System.err by a logger.(‚Á­Şşÿÿÿÿ8¯ÄÏÄÜ/
-V	java:S106ı"9Replace this use of System.out or System.err by a logger.(Ü®¢°8¯ÄÏÄÜ/
-V	java:S106Ï	"9Replace this use of System.out or System.err by a logger.(²¿’8¯ÄÏÄÜ/
-[	java:S106«"9Replace this use of System.out or System.err by a logger.(¹¦…‡úÿÿÿÿ8¯ÄÏÄÜ/
-[
-java:S1197˜"8Move the array designator from the variable to the type.(Ö¼»ÿÿÿÿÿ8¯ÄÏÄÜ/
-l
-java:S1192Ç"IDefine a constant instead of duplicating this literal "Before: " 3 times.(ƒ‘ßÃşÿÿÿÿ8¯ÄÏÄÜ/
+V	java:S106ù"9Replace this use of System.out or System.err by a logger.(·áÃ8¯ÄÏÄÜ/
 V
-java:S1197‰"8Move the array designator from the variable to the type.(øµÆà8¯ÄÏÄÜ/
-U	java:S106Æ"9Replace this use of System.out or System.err by a logger.(ƒÚáB8¯ÄÏÄÜ/
-^	java:S125Œ"<This block of commented-out lines of code should be removed.(è¾ÕÂøÿÿÿÿ8¯ÄÏÄÜ/
-[	java:S106›"9Replace this use of System.out or System.err by a logger.(‘óÈÈüÿÿÿÿ8¤Û¨¿Ü/
+java:S1197÷"8Move the array designator from the variable to the type.(ˆĞ®Ñ8¤Û¨¿Ü/
+[	java:S106Ñ"9Replace this use of System.out or System.err by a logger.(‚é€Şûÿÿÿÿ8¯ÄÏÄÜ/
+[	java:S106"9Replace this use of System.out or System.err by a logger.(‘óÈÈüÿÿÿÿ8¤Û¨¿Ü/
+[	java:S106›"9Replace this use of System.out or System.err by a logger.(­àÊŠøÿÿÿÿ8¯ÄÏÄÜ/
+^	java:S125"<This block of commented-out lines of code should be removed.(è¾ÕÂøÿÿÿÿ8¯ÄÏÄÜ/
+M
+java:S3740Ö"/Provide the parametrized type for this generic.(´‡8¯ÄÏÄÜ/
+V	java:S106•"9Replace this use of System.out or System.err by a logger.(šÒßê8¤Û¨¿Ü/
+V	java:S106Ï"9Replace this use of System.out or System.err by a logger.(«á·Í8¯ÄÏÄÜ/
+Y	java:S125‰"<This block of commented-out lines of code should be removed.(Ç¥¹õ8¯ÄÏÄÜ/
+s
+java:S1149Ò"PReplace the synchronized class "Stack" by an unsynchronized one such as "Deque".(ƒÿƒ—ùÿÿÿÿ8¯ÄÏÄÜ/
+V	java:S106¸"9Replace this use of System.out or System.err by a logger.(Æ€ûÇ8¤Û¨¿Ü/
+[	java:S106"9Replace this use of System.out or System.err by a logger.(…¡¥ƒıÿÿÿÿ8¯ÄÏÄÜ/
+V	java:S106õ"9Replace this use of System.out or System.err by a logger.(†Ùô½8¯ÄÏÄÜ/
+[	java:S106ğ"9Replace this use of System.out or System.err by a logger.(íú™€ıÿÿÿÿ8¤Û¨¿Ü/
+[	java:S106í
+"9Replace this use of System.out or System.err by a logger.(¼Íäıÿÿÿÿ8¯ÄÏÄÜ/
+Z	java:S106p"9Replace this use of System.out or System.err by a logger.(¬ĞË‹ùÿÿÿÿ8¯ÄÏÄÜ/
+U	java:S106Ğ	"9Replace this use of System.out or System.err by a logger.(Š†ì8¤Û¨¿Ü/
+V	java:S106“"9Replace this use of System.out or System.err by a logger.(‰×òº8¯ÄÏÄÜ/
+V	java:S106Û"9Replace this use of System.out or System.err by a logger.(Ù©È±8¯ÄÏÄÜ/
+V
+java:S1197ø"8Move the array designator from the variable to the type.(³‰ª½8¯ÄÏÄÜ/
+g
+java:S11240"EReorder the modifiers to comply with the Java Language Specification.(¥û»Àüÿÿÿÿ8¤Û¨¿Ü/
+[	java:S106½	"9Replace this use of System.out or System.err by a logger.(š•üÿúÿÿÿÿ8¯ÄÏÄÜ/
+V	java:S106˜
+"9Replace this use of System.out or System.err by a logger.(¾‡øç8¤Û¨¿Ü/
+V	java:S106¨
+"9Replace this use of System.out or System.err by a logger.(‚•¹¦8¤Û¨¿Ü/
+[	java:S106ß"9Replace this use of System.out or System.err by a logger.(îœŸæşÿÿÿÿ8¯ÄÏÄÜ/
+[	java:S106ş"9Replace this use of System.out or System.err by a logger.(íú™€ıÿÿÿÿ8¤Û¨¿Ü/
+V	java:S106‚"9Replace this use of System.out or System.err by a logger.(Ù©È±8¯ÄÏÄÜ/
+V	java:S106æ"9Replace this use of System.out or System.err by a logger.(ñÙÿÏ8¯ÄÏÄÜ/
+V	java:S106§
+"9Replace this use of System.out or System.err by a logger.(½Úõ±8¤Û¨¿Ü/
+[	java:S106„"9Replace this use of System.out or System.err by a logger.(ªÓ¼áşÿÿÿÿ8¯ÄÏÄÜ/
+[	java:S106¼"9Replace this use of System.out or System.err by a logger.(ˆªıáûÿÿÿÿ8¯ÄÏÄÜ/
+[	java:S106"9Replace this use of System.out or System.err by a logger.(ªÓ¼áşÿÿÿÿ8¯ÄÏÄÜ/
+U	java:S106ú"9Replace this use of System.out or System.err by a logger.(êùá88¯ÄÏÄÜ/
+V	java:S106ø"9Replace this use of System.out or System.err by a logger.(³¤–8¯ÄÏÄÜ/
+V	java:S106"9Replace this use of System.out or System.err by a logger.(’·Û«8¯ÄÏÄÜ/
+[	java:S106"9Replace this use of System.out or System.err by a logger.(¿­ûøÿÿÿÿ8¤Û¨¿Ü/
+V	java:S106û"9Replace this use of System.out or System.err by a logger.(†Ùô½8¤Û¨¿Ü/
+R
+java:S3740ò"/Provide the parametrized type for this generic.(±‡°ıÿÿÿÿ8¯ÄÏÄÜ/
+[	java:S106ó
+"9Replace this use of System.out or System.err by a logger.(¼Íäıÿÿÿÿ8¯ÄÏÄÜ/
+g
+java:S1124,"EReorder the modifiers to comply with the Java Language Specification.(Å¬áúÿÿÿÿ8¤Û¨¿Ü/
+a
+java:S11243"EReorder the modifiers to comply with the Java Language Specification.(¤¯+8¤Û¨¿Ü/
+O
+java:S1602‚",Remove useless curly braces around statement(õú£·øÿÿÿÿ8¯ÄÏÄÜ/
+R
+java:S3740é"/Provide the parametrized type for this generic.(Í•¢Êşÿÿÿÿ8¤Û¨¿Ü/
+[	java:S106½"9Replace this use of System.out or System.err by a logger.(£Ì³¸şÿÿÿÿ8¯ÄÏÄÜ/
+[	java:S106¡"9Replace this use of System.out or System.err by a logger.(¹³ÿÿÿÿÿ8¯ÄÏÄÜ/
+V	java:S106µ"9Replace this use of System.out or System.err by a logger.(œ•é‹8¯ÄÏÄÜ/
+[	java:S106‚	"9Replace this use of System.out or System.err by a logger.(Åš×ıÿÿÿÿ8¯ÄÏÄÜ/
+U	java:S106ã"9Replace this use of System.out or System.err by a logger.(òç]8¯ÄÏÄÜ/
+M
+java:S3740©"/Provide the parametrized type for this generic.(Ù€ª8¯ÄÏÄÜ/
+[	java:S106è"9Replace this use of System.out or System.err by a logger.(Œó™×úÿÿÿÿ8¯ÄÏÄÜ/
+V	java:S106°"9Replace this use of System.out or System.err by a logger.(Æ·‹8¯ÄÏÄÜ/
+[	java:S106×"9Replace this use of System.out or System.err by a logger.(°şÙãüÿÿÿÿ8¯ÄÏÄÜ/
+[	java:S106×"9Replace this use of System.out or System.err by a logger.(‚Á­Şşÿÿÿÿ8¯ÄÏÄÜ/
+[	java:S106™
+"9Replace this use of System.out or System.err by a logger.(éöıùÿÿÿÿ8¤Û¨¿Ü/
+V	java:S106ñ"9Replace this use of System.out or System.err by a logger.(éã”Ş8¯ÄÏÄÜ/
+[	java:S106Ù"9Replace this use of System.out or System.err by a logger.(•®°ßùÿÿÿÿ8¯ÄÏÄÜ/
+[	java:S106ñ"9Replace this use of System.out or System.err by a logger.(œ£Óùÿÿÿÿ8¯ÄÏÄÜ/
+U	java:S106Ğ"9Replace this use of System.out or System.err by a logger.(ÇÑ×8ÉÒØÅÜ/
+[	java:S106¡"9Replace this use of System.out or System.err by a logger.(ú´÷øÿÿÿÿÿ8¯ÄÏÄÜ/
+V	java:S106ÿ"9Replace this use of System.out or System.err by a logger.(†Ùô½8¯ÄÏÄÜ/
+[	java:S106ƒ"9Replace this use of System.out or System.err by a logger.(‰ùıúşÿÿÿÿ8¤Û¨¿Ü/
+V
+java:S1197ˆ"8Move the array designator from the variable to the type.(©æêñ8¯ÄÏÄÜ/
+V	java:S106¥"9Replace this use of System.out or System.err by a logger.(ÌÎ•™8¯ÄÏÄÜ/
+[	java:S106Ü"9Replace this use of System.out or System.err by a logger.(¬ĞË‹ùÿÿÿÿ8¯ÄÏÄÜ/
+V
+java:S1197‹"8Move the array designator from the variable to the type.(øµÆà8¯ÄÏÄÜ/
+[	java:S106®"9Replace this use of System.out or System.err by a logger.(¨¶ÑÍşÿÿÿÿ8¯ÄÏÄÜ/
+X
+java:S1611‚"5Remove the parentheses around the "element" parameter(õú£·øÿÿÿÿ8¯ÄÏÄÜ/
+[	java:S106¥"9Replace this use of System.out or System.err by a logger.(¥®ÎÌùÿÿÿÿ8¯ÄÏÄÜ/
+V	java:S106ÿ"9Replace this use of System.out or System.err by a logger.(Ü®¢°8¯ÄÏÄÜ/
+V	java:S106ó"9Replace this use of System.out or System.err by a logger.(†Ùô½8¯ÄÏÄÜ/
+V	java:S106ö"9Replace this use of System.out or System.err by a logger.(«á·Í8¯ÄÏÄÜ/
+O
+java:S1612‚",Replace this lambda with a method reference.(õú£·øÿÿÿÿ8¯ÄÏÄÜ/
+Z	java:S106T"9Replace this use of System.out or System.err by a logger.(¬ĞË‹ùÿÿÿÿ8¯ÄÏÄÜ/
+[	java:S106Ù"9Replace this use of System.out or System.err by a logger.(ªÓ¼áşÿÿÿÿ8¯ÄÏÄÜ/
+V	java:S106¢	"9Replace this use of System.out or System.err by a logger.(«á·Í8¯ÄÏÄÜ/
+U	java:S106Â"9Replace this use of System.out or System.err by a logger.(ƒÚáB8¯ÄÏÄÜ/
+V	java:S106£"9Replace this use of System.out or System.err by a logger.(™Ã™·8¯ÄÏÄÜ/
+[	java:S106¨"9Replace this use of System.out or System.err by a logger.(ÍÛ›Òüÿÿÿÿ8¤Û¨¿Ü/
+R
+java:S3740¡	"/Provide the parametrized type for this generic.(š·ˆ¨øÿÿÿÿ8¯ÄÏÄÜ/
+m
+java:S2095©"OUse try-with-resources or close this "ObjectInputStream" in a "finally" clause.(´¢ß8¯ÄÏÄÜ/
+R
+java:S3740ú"/Provide the parametrized type for this generic.(Óš‘ûÿÿÿÿ8¯ÄÏÄÜ/
+R
+java:S3740„	"/Provide the parametrized type for this generic.(Óš‘ûÿÿÿÿ8¯ÄÏÄÜ/
+g
+java:S11242"EReorder the modifiers to comply with the Java Language Specification.(ûòòşÿÿÿÿ8¤Û¨¿Ü/
+V	java:S106×"9Replace this use of System.out or System.err by a logger.(…ƒ¤‡8¯ÄÏÄÜ/
+L
+java:S3740ö"/Provide the parametrized type for this generic.(¿æ–`8¯ÄÏÄÜ/
+[	java:S106ô"9Replace this use of System.out or System.err by a logger.(¨ˆŸîùÿÿÿÿ8¤Û¨¿Ü/
+i
+java:S1192"FDefine a constant instead of duplicating this literal "Java2" 7 times.(Ñ÷¸âüÿÿÿÿ8¤Û¨¿Ü/
+[	java:S106·"9Replace this use of System.out or System.err by a logger.(ˆ¢Ûßüÿÿÿÿ8¯ÄÏÄÜ/
+R
+java:S3740ø"/Provide the parametrized type for this generic.(æ’”ÿÿÿÿÿ8¯ÄÏÄÜ/
+V	java:S106‘"9Replace this use of System.out or System.err by a logger.(ç’¤™8¯ÄÏÄÜ/
+V	java:S106¹"9Replace this use of System.out or System.err by a logger.(ØñÈ8§ûÀÅÜ/
+d
+java:S1192µ"FDefine a constant instead of duplicating this literal "Apple" 4 times.(ïÃ£ğ8¯ÄÏÄÜ/
+M
+java:S3740º"/Provide the parametrized type for this generic.(òÇ°ì8¯ÄÏÄÜ/
+[	java:S106ú"9Replace this use of System.out or System.err by a logger.(íú™€ıÿÿÿÿ8¤Û¨¿Ü/
+O
+java:S1612÷",Replace this lambda with a method reference.(¦¿½ÿùÿÿÿÿ8¯ÄÏÄÜ/
+V	java:S106"9Replace this use of System.out or System.err by a logger.(–…˜Ğ8×Ô ”Ş/

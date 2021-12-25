@@ -36,3 +36,9 @@ Jsrc/main/java/com/javatrap2020_full_examples_java_collections/Student.java,7\1
 file.dat,5\a\5a6ff662d935af9dee7a5511e80a47cb0ec452f0
 v
 Fsrc/main/java/com/javatrap2020_full_examples_java_collections/Dog.java,b\f\bf99ba03298527e3ec4dc3ca81ab9b23ad3f5289
+v
+Fsrc/main/java/com/javatrap2020_full_examples_java_collections/Cat.java,6\a\6a9081d0a9b02cb1e79a176498cf1a9bf5b046b7
+v
+Fsrc/main/java/com/javatrap2020_full_examples_java_collections/Rat.java,5\9\59ed6bd5841f09ba78e872f941e0862594d53858
+9
+	README.md,8\e\8ec9a00bfd09b3190ac6b22251dbb1aa95a0579d
